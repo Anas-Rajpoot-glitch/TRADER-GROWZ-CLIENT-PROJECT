@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from PIL import Image; print\\('PIL ok'\\)\")",
+      "Bash(python -m pip install --quiet Pillow)",
+      "WebFetch(domain:oryzo.ai)"
+    ]
+  }
+}

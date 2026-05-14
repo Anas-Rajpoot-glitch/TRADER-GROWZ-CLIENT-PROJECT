@@ -1,0 +1,342 @@
+/* Final brand color cleanup.
+   Logo red sampled from the current Trader Growz logo asset. */
+
+:root {
+  --logo-red: #EB0717;
+  --logo-red-soft: rgba(235, 7, 23, 0.12);
+  --logo-red-line: rgba(235, 7, 23, 0.18);
+  --logo-red-strong: rgba(235, 7, 23, 0.24);
+  --accent: #EB0717 !important;
+  --accent-2: #EB0717 !important;
+  --accent-3: #EB0717 !important;
+  --brand-burgundy: #EB0717 !important;
+  --brand-ink: #EB0717 !important;
+  --brand-gradient-down: #EB0717 !important;
+  --brand-gradient-up: #EB0717 !important;
+  --brand-gradient-side: #EB0717 !important;
+  --brand-gradient-angle: #EB0717 !important;
+  --brand-gradient-soft: #fff5f6 !important;
+  --premium-glow-red: rgba(235, 7, 23, 0.24) !important;
+  --premium-glow-red-soft: rgba(235, 7, 23, 0.12) !important;
+  --premium-glow-gold: rgba(235, 7, 23, 0.14) !important;
+}
+
+body,
+.site-header,
+.mobile-menu,
+.site-footer,
+.page-hero,
+.section-band,
+.faq-legal-section,
+.disclaimer-section,
+.new-releases-section,
+.guarantee-section,
+.newsletter-banner,
+.telegram-band,
+.home-promo-card,
+.promo-hero-panel,
+.product-detail-wrap,
+.product-detail-media,
+.product-detail-layout,
+.surface,
+.category-card,
+.product-card,
+.release-product,
+.cart-item,
+.faq-accordion details,
+.disclaimer-card,
+.auth-panel {
+  background: #ffffff !important;
+  background-image: none !important;
+}
+
+body::before,
+body::after,
+.promo-bar::before,
+.promo-bar::after,
+.newsletter-banner::before,
+.guarantee-section::before,
+.page-hero::before,
+.page-hero::after,
+.telegram-band::before,
+.new-releases-section::before,
+.home-promo-card::before,
+.home-promo-card::after {
+  display: none !important;
+}
+
+.brand-mark,
+.social-nav-link,
+.cart-icon-link,
+#mobile-menu-toggle,
+.floating-telegram,
+.floating-luffa,
+.surface,
+.category-card,
+.product-card,
+.release-product,
+.faq-accordion details,
+.product-detail-wrap,
+.product-detail-media,
+.product-detail-layout,
+.newsletter-input,
+.form-control,
+.cart-item,
+.cart-qty,
+.auth-panel,
+.brand-mark img,
+.auth-logo {
+  border-color: var(--logo-red-line) !important;
+  box-shadow: 0 14px 34px rgba(235, 7, 23, 0.08) !important;
+}
+
+.promo-bar,
+.btn-primary,
+.promo-shop-btn,
+.newsletter-submit,
+.social-icon,
+.luffa-icon,
+.instagram-icon,
+.floating-telegram-icon,
+.floating-luffa-icon,
+.cart-count,
+.badge,
+.product-badge,
+.faq-accordion details summary span,
+.release-dot.is-active,
+.pagination-btn.is-active,
+.cart-qty-btn,
+.cart-remove {
+  background: var(--logo-red) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  border-color: var(--logo-red) !important;
+  box-shadow: 0 12px 26px rgba(235, 7, 23, 0.18) !important;
+}
+
+.btn-secondary {
+  background: #ffffff !important;
+  background-image: none !important;
+  color: var(--logo-red) !important;
+  border-color: rgba(235, 7, 23, 0.28) !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible,
+.btn-primary:hover,
+.btn-primary:focus-visible,
+.promo-shop-btn:hover,
+.promo-shop-btn:focus-visible,
+.newsletter-submit:hover,
+.newsletter-submit:focus-visible {
+  background: var(--logo-red) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  border-color: var(--logo-red) !important;
+}
+
+.btn-primary::before,
+.btn-primary::after,
+.btn-secondary::before,
+.btn-secondary::after,
+.promo-shop-btn::before,
+.promo-shop-btn::after,
+.newsletter-submit::before,
+.newsletter-submit::after,
+.social-nav-link::after,
+.cart-icon-link::after,
+.cart-qty-btn::after,
+.cart-remove::after,
+.promo-bar::before,
+.promo-bar::after {
+  display: none !important;
+  content: none !important;
+}
+
+.nav-link,
+.footer-link,
+.dropdown-item,
+.promo-eyebrow,
+.promo-line,
+.newsletter-kicker,
+.newsletter-title span,
+.faq-copy h2 span,
+.text-leaf,
+.text-ember,
+.text-honey,
+.brand-accent,
+.category-kicker,
+.section-kicker,
+.eyebrow,
+.product-detail-brand,
+.floating-telegram-text strong,
+.page-hero .badge,
+.release-arrow,
+.product-card .price,
+.release-price,
+.current-price,
+.product-price {
+  color: var(--logo-red) !important;
+}
+
+.nav-link::after,
+.footer-link::after,
+.dropdown-item::after,
+.promo-divider {
+  background: var(--logo-red) !important;
+  box-shadow: none !important;
+}
+
+.cart-count.is-empty,
+.floating-luffa,
+.home-promo-close {
+  background: #ffffff !important;
+  color: var(--logo-red) !important;
+  border-color: rgba(235, 7, 23, 0.22) !important;
+}
+
+.floating-luffa-icon {
+  background: var(--logo-red) !important;
+  color: #ffffff !important;
+}
+
+.promo-hero-scene,
+.home-promo-visual {
+  filter: none !important;
+}
+
+body[data-page="age"].auth-bg,
+body[data-page="password"].auth-bg {
+  background: linear-gradient(135deg, #ffffff 0%, #fff6f7 54%, #fff1f3 100%) !important;
+}
+
+body[data-page="age"] .auth-panel,
+body[data-page="password"] .auth-panel {
+  border-color: var(--logo-red-line) !important;
+}
+
+body[data-page="age"] .auth-logo,
+body[data-page="password"] .auth-logo {
+  box-shadow: 0 14px 34px rgba(235, 7, 23, 0.16) !important;
+}
+
+body[data-page="age"] .form-control,
+body[data-page="password"] .form-control {
+  border-color: rgba(235, 7, 23, 0.2) !important;
+}
+
+body[data-page="age"] .btn-primary,
+body[data-page="password"] .btn-primary {
+  background: var(--logo-red) !important;
+  background-image: none !important;
+  box-shadow: 0 14px 30px rgba(235, 7, 23, 0.18) !important;
+}
+
+/* Final logo override: use the provided logo asset without the old badge framing or tiny mobile sizing. */
+.site-header .brand-mark,
+.site-footer .brand-mark {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 140px !important;
+  min-width: 140px !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.site-header .brand-mark img,
+.site-footer .brand-mark img,
+body[data-page="age"] .auth-logo,
+body[data-page="password"] .auth-logo {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.site-footer .brand-mark {
+  width: 156px !important;
+  min-width: 156px !important;
+}
+
+body[data-page="age"] .auth-logo,
+body[data-page="password"] .auth-logo {
+  width: min(360px, 84vw) !important;
+}
+
+@media (max-width: 1024px) {
+  .site-header .brand-mark {
+    width: 124px !important;
+    min-width: 124px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header .brand-mark {
+    width: 108px !important;
+    min-width: 108px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .site-header .brand-mark {
+    width: 100px !important;
+    min-width: 100px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header .brand-mark {
+    width: 94px !important;
+    min-width: 94px !important;
+  }
+}
+
+/* Final carousel control override: show clear arrow buttons instead of solid square blocks. */
+.release-controls {
+  gap: 12px !important;
+}
+
+.release-arrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 9999px !important;
+  border: 1px solid rgba(235, 7, 23, 0.2) !important;
+  background: #ffffff !important;
+  color: var(--logo-red) !important;
+  box-shadow: 0 12px 28px rgba(235, 7, 23, 0.14) !important;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease, color 180ms ease !important;
+}
+
+.release-arrow-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+}
+
+.release-arrow:hover,
+.release-arrow:focus-visible {
+  transform: translateY(-1px) scale(1.03) !important;
+  background: var(--logo-red) !important;
+  color: #ffffff !important;
+  box-shadow: 0 16px 32px rgba(235, 7, 23, 0.18) !important;
+}
+
+.release-arrow:disabled {
+  background: #ffffff !important;
+  color: rgba(235, 7, 23, 0.38) !important;
+  border-color: rgba(235, 7, 23, 0.12) !important;
+  opacity: 1 !important;
+  box-shadow: none !important;
+}

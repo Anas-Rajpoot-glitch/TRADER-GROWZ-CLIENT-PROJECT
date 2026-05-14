@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /password.html
+Allow: /password/
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+Sitemap: https://tradergrowz.ca/sitemap.xml

@@ -1,0 +1,467 @@
+/* ==============================================================
+   Trader Growz — Site-wide animation polish
+   Loads alongside style.css on every page (except the bespoke
+   gate pages: password / age). Scroll-fade reveals, smoother
+   hover, subtle button shimmer, animated nav, smooth scroll —
+   nothing decorative or distracting.
+   All transitions use transform/opacity/filter for GPU work,
+   and the layer auto-disables on prefers-reduced-motion or
+   body.performance-lite (the existing script.js sets that for
+   low-end devices and reduced-motion).
+   ============================================================== */
+
+/* --------------------------------------------------------------
+   Page entrance — soft fade+lift on first paint
+   -------------------------------------------------------------- */
+body:not(.gsap-enhanced):not([data-page="password-gate"]):not([data-page="age-gate"]) main {
+  animation: tgPageIn 600ms cubic-bezier(.2, .9, .2, 1) both;
+}
+@keyframes tgPageIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+body.is-leaving {
+  pointer-events: none;
+}
+body.is-leaving main,
+body.is-leaving footer {
+  opacity: 0.55;
+  transform: translateY(8px);
+  transition: opacity 360ms ease, transform 360ms cubic-bezier(.2, .9, .2, 1);
+}
+
+/* --------------------------------------------------------------
+   Scroll reveal — JS toggles .is-visible when in view.
+   Default state is fade + lift. Direction variants available.
+   -------------------------------------------------------------- */
+.tg-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 720ms cubic-bezier(.2, .9, .2, 1),
+    transform 720ms cubic-bezier(.2, .9, .2, 1);
+  transition-delay: var(--tg-reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.tg-reveal.tg-reveal-left  { transform: translateX(-32px); }
+.tg-reveal.tg-reveal-right { transform: translateX(32px); }
+.tg-reveal.tg-reveal-scale { transform: scale(0.96); }
+
+.tg-reveal.is-visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Existing .reveal-on-scroll selectors get the same easing */
+.reveal-on-scroll {
+  transition:
+    opacity 720ms cubic-bezier(.2, .9, .2, 1),
+    transform 720ms cubic-bezier(.2, .9, .2, 1);
+}
+
+/* Stagger reveal for grids (JS sets --tg-stagger-delay per child) */
+.tg-stagger > * {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 600ms cubic-bezier(.2, .9, .2, 1),
+    transform 600ms cubic-bezier(.2, .9, .2, 1);
+  transition-delay: var(--tg-stagger-delay, 0ms);
+}
+.tg-stagger.is-visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --------------------------------------------------------------
+   Cards — smoother lift + image zoom on hover
+   -------------------------------------------------------------- */
+.category-card,
+.product-card,
+.info-card,
+.release-product,
+.testimonial-card,
+.contact-card {
+  transition:
+    transform 360ms cubic-bezier(.2, .9, .2, 1),
+    border-color 360ms ease,
+    box-shadow 360ms ease,
+    filter 360ms ease;
+}
+
+.category-card:hover,
+.product-card:hover,
+.info-card:hover,
+.release-product:hover,
+.testimonial-card:hover,
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 24px 54px rgba(168, 0, 13, 0.16),
+    0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* Image zoom inside cards */
+.category-card img,
+.product-card img,
+.release-product img {
+  transition:
+    transform 600ms cubic-bezier(.2, .9, .2, 1),
+    filter 500ms ease;
+}
+.category-card:hover img,
+.product-card:hover img,
+.release-product:hover img {
+  transform: scale(1.06);
+  filter: saturate(1.08) brightness(1.03);
+}
+
+/* --------------------------------------------------------------
+   Lazy image fade-in
+   -------------------------------------------------------------- */
+img[data-anim-img] {
+  opacity: 0;
+  transform: translateY(6px);
+  transition:
+    opacity 600ms ease,
+    transform 600ms cubic-bezier(.2, .9, .2, 1);
+}
+img[data-anim-img].is-loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --------------------------------------------------------------
+   Buttons — soft shimmer + smoother hover
+   -------------------------------------------------------------- */
+.btn-primary,
+.btn-secondary,
+.promo-shop-btn,
+.newsletter-submit {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 320ms cubic-bezier(.2, .9, .2, 1),
+    box-shadow 320ms ease,
+    background-position 600ms ease,
+    color 240ms ease;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.promo-shop-btn:hover,
+.newsletter-submit:hover {
+  transform: translateY(-2px);
+}
+.btn-primary:active,
+.btn-secondary:active,
+.promo-shop-btn:active,
+.newsletter-submit:active {
+  transform: translateY(0);
+  transition-duration: 120ms;
+}
+
+/* Subtle sheen sweep across primary CTAs (slow + soft) */
+.btn-primary::after,
+.promo-shop-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -85%;
+  width: 55%;
+  height: 100%;
+  background: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.06) 30%,
+    rgba(255, 255, 255, 0.32) 50%,
+    rgba(255, 255, 255, 0.06) 70%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-22deg);
+  pointer-events: none;
+  animation: tgBtnSheen 6s ease-in-out infinite;
+  z-index: 1;
+}
+.btn-primary > *,
+.promo-shop-btn > * {
+  position: relative;
+  z-index: 2;
+}
+@keyframes tgBtnSheen {
+  0%   { left: -85%; }
+  60%  { left: 130%; }
+  100% { left: 130%; }
+}
+
+/* Visible keyboard focus rings */
+:where(a, button, input, select, textarea):focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(235, 7, 23, 0.18),
+    0 0 0 1px rgba(235, 7, 23, 0.55);
+  border-radius: 8px;
+  transition: box-shadow 180ms ease;
+}
+
+/* --------------------------------------------------------------
+   Nav links — underline grows from center on hover
+   -------------------------------------------------------------- */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 12%;
+  right: 12%;
+  bottom: 4px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent, #db0111), transparent);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 320ms cubic-bezier(.2, .9, .2, 1);
+  pointer-events: none;
+}
+.nav-link:hover::after,
+.nav-link:focus-visible::after,
+.nav-link.is-active::after {
+  transform: scaleX(1);
+}
+
+/* --------------------------------------------------------------
+   Footer links — gentle slide on hover
+   -------------------------------------------------------------- */
+.footer-link,
+.site-footer a {
+  transition:
+    color 220ms ease,
+    transform 280ms cubic-bezier(.2, .9, .2, 1);
+}
+.footer-link:hover,
+.site-footer a:hover {
+  transform: translateX(3px);
+}
+
+/* --------------------------------------------------------------
+   Sticky header — depth on scroll (works with .is-scrolled)
+   -------------------------------------------------------------- */
+.site-header {
+  transition:
+    backdrop-filter 320ms ease,
+    background-color 320ms ease,
+    box-shadow 320ms ease;
+}
+.site-header.is-scrolled {
+  backdrop-filter: blur(12px) saturate(1.1);
+  -webkit-backdrop-filter: blur(12px) saturate(1.1);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.10);
+}
+
+/* --------------------------------------------------------------
+   Mobile menu — fade + slide on open/close
+   -------------------------------------------------------------- */
+.mobile-menu {
+  transform: translateY(-12px);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 320ms ease,
+    transform 380ms cubic-bezier(.2, .9, .2, 1);
+}
+.mobile-menu.is-open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.hamburger-line {
+  transition:
+    transform 320ms cubic-bezier(.2, .9, .2, 1),
+    opacity 220ms ease;
+}
+
+/* --------------------------------------------------------------
+   Form inputs — soft red glow on focus
+   -------------------------------------------------------------- */
+input.form-control,
+select.form-control,
+textarea.form-control,
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="number"],
+textarea {
+  transition:
+    border-color 280ms ease,
+    box-shadow 280ms ease,
+    background-color 280ms ease,
+    transform 280ms cubic-bezier(.2, .9, .2, 1);
+}
+input.form-control:focus,
+select.form-control:focus,
+textarea.form-control:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  box-shadow:
+    0 0 0 4px rgba(235, 7, 23, 0.12),
+    0 6px 18px rgba(235, 7, 23, 0.10);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------
+   FAQ accordion — answers fade in
+   -------------------------------------------------------------- */
+.faq-accordion details {
+  transition:
+    background-color 280ms ease,
+    box-shadow 320ms ease,
+    border-color 280ms ease;
+}
+.faq-accordion details[open] {
+  box-shadow: 0 12px 26px rgba(168, 0, 13, 0.08);
+}
+.faq-accordion details > *:not(summary) {
+  animation: tgAnswerIn 380ms cubic-bezier(.2, .9, .2, 1);
+}
+@keyframes tgAnswerIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.faq-accordion summary {
+  transition: color 220ms ease, transform 220ms ease;
+}
+.faq-accordion summary:hover {
+  transform: translateX(2px);
+}
+
+/* --------------------------------------------------------------
+   Cart count bubble pulse on change (JS adds .has-bumped)
+   -------------------------------------------------------------- */
+.cart-count.has-bumped {
+  animation: tgCountBump 480ms cubic-bezier(.34, 1.56, .64, 1);
+}
+@keyframes tgCountBump {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+/* Cart toast entrance */
+#cart-toast,
+.cart-toast {
+  animation: tgToastIn 320ms cubic-bezier(.2, .9, .2, 1);
+}
+@keyframes tgToastIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --------------------------------------------------------------
+   Carousel arrows — smoother spring on hover/press
+   -------------------------------------------------------------- */
+.release-arrow,
+.cart-qty-btn,
+.cart-remove,
+.pagination-btn,
+.cart-icon-link,
+.social-nav-link {
+  transition:
+    transform 280ms cubic-bezier(.2, .9, .2, 1),
+    background-color 240ms ease,
+    color 240ms ease,
+    box-shadow 280ms ease;
+}
+.release-arrow:hover,
+.cart-qty-btn:hover,
+.pagination-btn:hover,
+.cart-icon-link:hover,
+.social-nav-link:hover {
+  transform: translateY(-2px) scale(1.04);
+}
+.release-arrow:active,
+.cart-qty-btn:active,
+.cart-remove:active,
+.pagination-btn:active {
+  transform: scale(0.94);
+  transition-duration: 100ms;
+}
+
+/* --------------------------------------------------------------
+   Mobile-first polish
+   -------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Slightly longer reveals feel smoother on phones */
+  .tg-reveal,
+  .tg-stagger > *,
+  .reveal-on-scroll {
+    transition-duration: 820ms;
+  }
+
+  /* Tap feedback springs */
+  .product-card:active,
+  .category-card:active,
+  .release-product:active,
+  .info-card:active,
+  .testimonial-card:active,
+  .contact-card:active {
+    transform: scale(0.985) translateY(-2px) !important;
+    transition: transform 120ms cubic-bezier(.34, 1.56, .64, 1) !important;
+  }
+  .btn-primary:active,
+  .btn-secondary:active,
+  .promo-shop-btn:active {
+    transform: scale(0.96) !important;
+  }
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Smooth scrolling for anchor jumps */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+}
+
+/* --------------------------------------------------------------
+   Performance-lite — disable heavier effects
+   -------------------------------------------------------------- */
+body.performance-lite .btn-primary::after,
+body.performance-lite .promo-shop-btn::after {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------
+   Reduced motion — neutralize everything
+   -------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001s !important;
+  }
+  .tg-reveal,
+  .tg-stagger > *,
+  img[data-anim-img] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* --------------------------------------------------------------
+   Don't apply any of this on the bespoke gate pages
+   -------------------------------------------------------------- */
+body[data-page="password"] .tg-reveal,
+body[data-page="password-gate"] .tg-reveal,
+body[data-page="age"] .tg-reveal,
+body[data-page="age-gate"] .tg-reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
