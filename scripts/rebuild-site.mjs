@@ -157,6 +157,22 @@ const faqItems = [
 ];
 
 const categoryProductOrder = {
+  flower: [
+    "greenline-premium-indoor-flower-eighths",
+    "soma-rosa-sun-grown-flower-oz",
+    "brainbow-exotic-indoor-flower",
+    "animal-sherbet-exotic-indoor-flower",
+    "cherry-on-top-exotic-indoor-flower",
+    "3bros-premium-flower-half-oz-jar",
+    "white-cherries-boutique-indoor",
+    "orange-fanta-boutique-indoor",
+    "lucky-charms-boutique-indoor",
+    "killer-og-boutique-indoor",
+    "green-gumbo-boutique-indoor",
+    "cheesecake-boutique-indoor",
+    "starburst-top-shelf",
+    "confetti-cake-top-shelf"
+  ],
   concentrates: [
     "amarelo-mountain-man-melts-cold-cured-live-resin-2g",
     "banana-punch-4-strawberry-guava-9-persy-thumbprint-2g",
@@ -178,7 +194,10 @@ const categoryProductOrder = {
     "clockwork-lemon-infused-gummies-10pk-100mg",
     "cookies-n-cream-dr-norms-mini-cookies-100mg",
     "crunchy-toasted-cinnamon-dr-norms-crispy-rice-bar-100mg-nano",
-    "dark-chocolate-raspberry-punch-solventless-punch-bar-100mg"
+    "dark-chocolate-raspberry-punch-solventless-punch-bar-100mg",
+    "jefferey-single-infused-joint",
+    "710-labs-hash-rosin-gummy-authentic",
+    "haze-main-thc-chocolate"
   ],
   "dispos-carts": [
     "coldfire-cart-1g-authentic",
@@ -194,7 +213,14 @@ const categoryProductOrder = {
     "orange-elixir-cbd-vape-disposable-1-gram",
     "papaya-cbd-vape-disposable-1-gram",
     "smarties-cali-thc-cartridge-1g",
-    "strawberry-banana-cbd-vape-disposable-1-gram"
+    "strawberry-banana-cbd-vape-disposable-1-gram",
+    "2g-hitz-infinity-aio-disposable",
+    "2g-ace-ultra-aio-disposable",
+    "2g-blinkers-double-chamber-aio-disposable",
+    "2g-sluggers-hit-switch-aio-disposable",
+    "in-house-live-rosin-cart-1g",
+    "caliplug-cart-1g",
+    "tier-1-rosin-dispos"
     ]
   };
 
@@ -243,6 +269,128 @@ const tenMinimumDispoPrices = new Map([
 
 const productOverrides = {
   flower: {
+    "greenline-premium-indoor-flower-eighths": {
+      title: "Greenline Premium Indoor Flower Eighths",
+      brand: "Greenline",
+      price: "$55.00",
+      compareAt: null,
+      image: "images/uploads/greenline-premium-indoor-flower-eighths.png",
+      alt: "Greenline Premium Indoor Flower Eighths",
+      description: "Authentic CA licensed Greenline premium indoor flower eighths with current strain options including Blockberry, Dosi-Orange #9, Papaya x 33, Pink Certz, and Shake Shack.",
+      facts: [
+        ["Brand", "Greenline"],
+        ["License", "Authentic CA licensed"],
+        ["Type", "Premium indoor flower"],
+        ["Format", "Eighths"],
+        ["Strains", "Blockberry, Dosi-Orange #9, Papaya x 33, Pink Certz, Shake Shack"],
+        ["1 Unit", "$55"],
+        ["2 Units", "$95"],
+        ["3 Units", "$135"],
+        ["4 Units", "$165"],
+        ["5 Units", "$200"],
+        ["5+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "soma-rosa-sun-grown-flower-oz": {
+      title: "Soma Rosa Sun Grown Flower Oz",
+      brand: "Soma Rosa Farms",
+      price: "$160.00",
+      compareAt: null,
+      image: "images/uploads/soma-rosa-sun-grown-flower-oz.png",
+      alt: "Soma Rosa Sun Grown Flower Oz",
+      description: "Authentic Soma Rosa Farms sun grown flower oz grown with organic, sustainable practices and a hands-on approach. The farm's curated indica, sativa, and hybrid strains are grown under full sun and slow-cured for clean potency, vibrant flavor, smoothness, and environmental responsibility.",
+      facts: [
+        ["Brand", "Soma Rosa Farms"],
+        ["Authenticity", "Authentic"],
+        ["Type", "Sun grown flower"],
+        ["Format", "1 oz"],
+        ["Farm Style", "Organic, sustainable practices"],
+        ["Cure", "Slow-cured"],
+        ["Strains", "Joker's Candy, Lemon Thai x OG Kush, Lemon Snow Leopard, Govt Oasis, Banana Punch"],
+        ["1 Oz", "$160"],
+        ["2 Oz", "$300"],
+        ["3 Oz", "$420"],
+        ["4 Oz", "$520"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "brainbow-exotic-indoor-flower": {
+      title: "Brainbow Exotic Indoor",
+      brand: "Exotic Indoor",
+      price: "$140.00",
+      compareAt: null,
+      image: "images/uploads/brainbow-exotic-indoor-flower.png",
+      gallery: [
+        "images/uploads/brainbow-exotic-indoor-flower-closeup.png"
+      ],
+      alt: "Brainbow Exotic Indoor",
+      description: "Brainbow is an exotic indoor strain from Brain Freeze x Zkittles with an interesting nose that is slightly gassy while carrying sweetness from the Z. The purple and green nuggets deliver a relaxing, slightly sedating high for a sweet boost of power.",
+      facts: [
+        ["Tier", "Exotic Indoor"],
+        ["Strain", "Brainbow"],
+        ["Cross", "Brain Freeze x Zkittles"],
+        ["Nose", "Slightly gassy with sweet Z notes"],
+        ["Buds", "Purple and green nuggets"],
+        ["Effect", "Relaxing and slightly sedating"],
+        ["1 Oz", "$140"],
+        ["2 Oz", "$250"],
+        ["4 Oz", "$450"],
+        ["8 Oz", "$750"],
+        ["1 Lb", "$1350"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "animal-sherbet-exotic-indoor-flower": {
+      title: "Animal Sherbet Exotic Indoor",
+      brand: "Exotic Indoor",
+      price: "$140.00",
+      compareAt: null,
+      image: "images/uploads/animal-sherbet-exotic-indoor-flower.png",
+      gallery: [
+        "images/uploads/animal-sherbet-exotic-indoor-flower-closeup.png"
+      ],
+      alt: "Animal Sherbet Exotic Indoor",
+      description: "Animal Sherbet is an exotic indoor strain with notes similar to Wedding Cake and Runtz. It leans into a sweet coating of hot gas that stays on the tongue, with a heavy exhale, relaxing feel, a bit of head stimulation, and oversized nuggets.",
+      facts: [
+        ["Tier", "Exotic Indoor"],
+        ["Strain", "Animal Sherbet"],
+        ["Notes", "Wedding Cake and Runtz style notes"],
+        ["Terps", "Sweet hot gas"],
+        ["Exhale", "Heavy"],
+        ["Effect", "Relaxing with light head stimulation"],
+        ["Buds", "Oversized nuggets"],
+        ["1 Oz", "$140"],
+        ["2 Oz", "$250"],
+        ["4 Oz", "$450"],
+        ["8 Oz", "$750"],
+        ["1 Lb", "$1350"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "cherry-on-top-exotic-indoor-flower": {
+      title: "CHERRY ON TOP Exotic Indoor",
+      brand: "Exotic Indoor",
+      price: "$150.00",
+      compareAt: null,
+      image: "images/uploads/cherry-on-top-exotic-indoor-flower.png",
+      gallery: [
+        "images/uploads/cherry-on-top-exotic-indoor-flower-closeup.png"
+      ],
+      alt: "CHERRY ON TOP Exotic Indoor",
+      description: "CHERRY ON TOP is an exotic indoor pick made for anyone after terpy candies, with a sweet candy-forward profile and bulk pricing through the Flower menu.",
+      facts: [
+        ["Tier", "Exotic Indoor"],
+        ["Strain", "CHERRY ON TOP"],
+        ["Profile", "Terpy candies"],
+        ["1 Oz", "$150"],
+        ["2 Oz", "$260"],
+        ["4 Oz", "$460"],
+        ["8 Oz", "$760"],
+        ["1 Lb", "$1360"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
     "apple-mac-awesome-dope-indoor-flower-3-5g": {
       title: "Cherry Zushimi",
       brand: "Traditional",
@@ -950,6 +1098,178 @@ const productOverrides = {
         ["4 Units", "$350"],
         ["Ordering", "Add to cart and finish through Telegram"]
       ]
+    },
+    "cherry-pie-zkittles-boutique-indoor": {
+      title: "Cherry Pie Zkittles",
+      brand: "Boutique Indoor",
+      price: "$165.00",
+      compareAt: null,
+      image: "images/uploads/cherry-pie-zkittles-boutique-indoor-1.png",
+      alt: "Cherry Pie Zkittles",
+      description: "\"Cherry Pie Zkittles\" is a boutique indoor strain bred from Cherry Pie x Zkittles. This indica-leaning hybrid brings sweet cherry pastry flavor layered with fruity candy notes, dense frosty buds, and a relaxing, mood-lifting high.",
+      facts: [
+        ["Style", "Boutique indoor"],
+        ["Cross", "Cherry Pie x Zkittles"],
+        ["Profile", "Sweet cherry pastry with fruity candy notes"],
+        ["Oz", "$165"],
+        ["2 Oz", "$290"],
+        ["4 Oz", "$500"],
+        ["8 Oz", "$800"],
+        ["1 Lb", "$1,500"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "crunchberries-x-dlish-exotic-indoor": {
+      title: "Crunchberries X Dlish",
+      brand: "Exotic Indoor",
+      price: "$150.00",
+      compareAt: null,
+      image: "images/uploads/crunchberries-x-dlish-exotic-indoor-1.png",
+      gallery: ["images/uploads/crunchberries-x-dlish-exotic-indoor-2.png"],
+      alt: "Crunchberries X Dlish",
+      description: "Crunchberries X Dlish is an exotic indoor cross of Crunchberries x D Lish. Expect a sweet berry cereal nose with creamy candy notes, frosty exotic buds, and an uplifting, well-rounded high.",
+      facts: [
+        ["Tier", "Exotic Indoor"],
+        ["Cross", "Crunchberries x D Lish"],
+        ["Profile", "Sweet berry cereal with creamy candy notes"],
+        ["1 Oz", "$150"],
+        ["2 Oz", "$260"],
+        ["4 Oz", "$460"],
+        ["8 Oz", "$760"],
+        ["1 Lb", "$1,360"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "sugar-cakes-exotic-indoor": {
+      title: "Sugar Cakes",
+      brand: "Exotic Indoor",
+      price: "$120.00",
+      compareAt: null,
+      image: "images/uploads/sugar-cakes-exotic-indoor-1.png",
+      gallery: ["images/uploads/sugar-cakes-exotic-indoor-2.png"],
+      alt: "Sugar Cakes",
+      description: "Sugar Cakes is an exotic indoor strain with a sweet creamy pastry aroma layered with rich vanilla notes. Dense, frosty buds deliver a smooth, relaxing high with an approachable price point and full bulk pricing through the flower menu.",
+      facts: [
+        ["Tier", "Exotic Indoor"],
+        ["Aroma", "Sweet creamy pastry and vanilla"],
+        ["1 Oz", "$120"],
+        ["2 Oz", "$220"],
+        ["4 Oz", "$380"],
+        ["8 Oz", "$600"],
+        ["1 Lb", "$1,000"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "wedding-pie-wizard-tier": {
+      title: "Wedding Pie",
+      brand: "Wizard Tier",
+      price: "$110.00",
+      compareAt: null,
+      image: "images/uploads/wedding-pie-wizard-tier-1.png",
+      gallery: ["images/uploads/wedding-pie-wizard-tier-2.png"],
+      alt: "Wedding Pie",
+      description: "Wizard tier Wedding Pie is an 80/20 indica bred from Wedding Cake x Grape Pie. Potent and delicious.",
+      facts: [
+        ["Tier", "Wizard"],
+        ["Type", "80/20 Indica"],
+        ["Cross", "Wedding Cake x Grape Pie"],
+        ["14g", "$110"],
+        ["Oz", "$200"],
+        ["2 Oz", "$350"],
+        ["QP", "$550"],
+        ["HP", "$875"],
+        ["LB", "$1,600"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "gg4-wizard-tier": {
+      title: "GG 4",
+      brand: "Wizard Tier",
+      price: "$60.00",
+      compareAt: null,
+      image: "images/uploads/gg4-wizard-tier-1.png",
+      alt: "GG 4",
+      description: "Wizard tier GG 4 is an indica-dominant strain bred from Chem's Sister x Sour Dubb x Chocolate Diesel. Fire ass GG4.",
+      facts: [
+        ["Tier", "Wizard"],
+        ["Type", "Indica Dominant"],
+        ["Cross", "Chem's Sister x Sour Dubb x Chocolate Diesel"],
+        ["7g", "$60"],
+        ["14g", "$110"],
+        ["Oz", "$200"],
+        ["2 Oz", "$350"],
+        ["QP", "$550"],
+        ["HP", "$875"],
+        ["LB", "$1,600"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "madman-og-2-wizard-tier": {
+      title: "Madman OG 2",
+      brand: "Wizard Tier",
+      price: "$110.00",
+      compareAt: null,
+      image: "images/uploads/madman-og-2-wizard-tier-1.png",
+      alt: "Madman OG 2",
+      description: "Wizard tier Madman OG 2 is a 60/40 indica bred from LA Confidential x OG Kush. We have the best OG's.",
+      facts: [
+        ["Tier", "Wizard"],
+        ["Type", "60/40 Indica"],
+        ["Cross", "LA Confidential x OG Kush"],
+        ["14g", "$110"],
+        ["Oz", "$200"],
+        ["2 Oz", "$350"],
+        ["QP", "$550"],
+        ["HP", "$875"],
+        ["LB", "$1,600"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "peach-cobbler-boutique-indoor": {
+      title: "Peach Cobbler",
+      brand: "Boutique Indoor",
+      price: "$165.00",
+      compareAt: null,
+      image: "images/uploads/peach-cobbler-boutique-indoor-1.png",
+      gallery: [
+        "images/uploads/peach-cobbler-boutique-indoor-2.png",
+        "images/uploads/peach-cobbler-boutique-indoor-3.png"
+      ],
+      alt: "Peach Cobbler",
+      description: "Peach Cobbler is a boutique indoor strain bred from Peach Kush x Apricot Papaya. This 55% sativa / 45% indica hybrid delivers a sweet ripe peach aroma with warm pastry and vanilla notes, dense frosty buds, and a balanced uplifting high.",
+      facts: [
+        ["Style", "Boutique indoor"],
+        ["Type", "55% Sativa / 45% Indica"],
+        ["Cross", "Peach Kush x Apricot Papaya"],
+        ["Aroma", "Sweet ripe peach with warm pastry and vanilla"],
+        ["Oz", "$165"],
+        ["2 Oz", "$290"],
+        ["4 Oz", "$500"],
+        ["8 Oz", "$800"],
+        ["1 Lb", "$1,500"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "sunkist-boutique-indoor": {
+      title: "Sunkist",
+      brand: "Boutique Indoor",
+      price: "$165.00",
+      compareAt: null,
+      image: "images/uploads/sunkist-boutique-indoor-1.png",
+      alt: "Sunkist",
+      description: "Sunkist is a boutique indoor hybrid bred from Platinum Tangie x Agent Orange. It delivers a sweet citrus and banana aroma with uplifting, energetic effects.",
+      facts: [
+        ["Style", "Boutique indoor"],
+        ["Type", "Hybrid"],
+        ["Cross", "Platinum Tangie x Agent Orange"],
+        ["Aroma", "Sweet citrus and banana"],
+        ["Oz", "$165"],
+        ["2 Oz", "$290"],
+        ["4 Oz", "$500"],
+        ["8 Oz", "$800"],
+        ["1 Lb", "$1,550"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
     }
   },
   "dispos-carts": {
@@ -1167,6 +1487,171 @@ const productOverrides = {
         ["Ordering", "Add to cart and finish through Telegram"]
       ]
     },
+    "2g-hitz-infinity-aio-disposable": {
+      title: "2G HITZ Infinity AIO Disposable",
+      brand: "HITZ",
+      price: "$40.00",
+      compareAt: null,
+      image: "images/uploads/hitz-infinity-aio-disposable-2g.png",
+      alt: "2G HITZ Infinity AIO Disposable",
+      description: "2 gram HITZ Infinity all-in-one disposable featuring live resin, sugar liquid diamonds, and a compact rechargeable-style AIO device. Available with straightforward quantity pricing.",
+      facts: [
+        ["Hardware", "AIO disposable"],
+        ["Brand", "HITZ Infinity"],
+        ["Size", "2g"],
+        ["Oil", "Live resin sugar liquid diamonds"],
+        ["1 Unit", "$40"],
+        ["2 Units", "$80"],
+        ["3 Units", "$110"],
+        ["4 Units", "$130"],
+        ["5 Units", "$150"],
+        ["10 Units", "$250"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "2g-ace-ultra-aio-disposable": {
+      title: "2G ACE ULTRA AIO Disposable",
+      brand: "ACE ULTRA",
+      price: "$40.00",
+      compareAt: null,
+      image: "images/uploads/ace-ultra-aio-disposable-2g.png",
+      alt: "2G ACE ULTRA AIO Disposable",
+      description: "2 gram ACE ULTRA all-in-one disposable with premium gold device styling and simple quantity tiers. Built for easy add-to-cart ordering through the Dispos/Carts menu.",
+      facts: [
+        ["Hardware", "AIO disposable"],
+        ["Brand", "ACE ULTRA"],
+        ["Size", "2g"],
+        ["Style", "Premium gold device"],
+        ["1 Unit", "$40"],
+        ["2 Units", "$80"],
+        ["3 Units", "$110"],
+        ["4 Units", "$130"],
+        ["5 Units", "$150"],
+        ["10 Units", "$250"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "2g-blinkers-double-chamber-aio-disposable": {
+      title: "2G Blinkers Double Chamber AIO Disposable",
+      brand: "Blinkers",
+      price: "$40.00",
+      compareAt: null,
+      image: "images/uploads/blinkers-double-chamber-aio-disposable-2g.png",
+      alt: "2G Blinkers Double Chamber AIO Disposable",
+      description: "2 gram Blinkers Flip double chamber all-in-one disposable with Mango Tango and Lemon Heads hybrid chambers. Available with simple quantity tiers through the Dispos/Carts menu.",
+      facts: [
+        ["Hardware", "AIO disposable"],
+        ["Brand", "Blinkers"],
+        ["Size", "2g"],
+        ["Device", "Double chamber"],
+        ["Chambers", "Mango Tango / Lemon Heads"],
+        ["1 Unit", "$40"],
+        ["2 Units", "$80"],
+        ["3 Units", "$110"],
+        ["4 Units", "$130"],
+        ["5 Units", "$150"],
+        ["10 Units", "$250"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "2g-sluggers-hit-switch-aio-disposable": {
+      title: "2G Sluggers Hit Switch AIO Disposable",
+      brand: "Sluggers",
+      price: "$40.00",
+      compareAt: null,
+      image: "images/uploads/sluggers-hit-switch-aio-disposable-2g.png",
+      alt: "2G Sluggers Hit Switch AIO Disposable",
+      description: "2 gram Sluggers Hit Switch all-in-one disposable with dual chamber vape pen styling and Sativa / Hybrid side-by-side flavor switching. Available with simple quantity tiers through the Dispos/Carts menu.",
+      facts: [
+        ["Hardware", "AIO disposable"],
+        ["Brand", "Sluggers"],
+        ["Size", "2g"],
+        ["Device", "Hit Switch"],
+        ["Style", "Dual chamber vape pen"],
+        ["1 Unit", "$40"],
+        ["2 Units", "$80"],
+        ["3 Units", "$110"],
+        ["4 Units", "$130"],
+        ["5 Units", "$150"],
+        ["10 Units", "$250"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "in-house-live-rosin-cart-1g": {
+      title: "1G Live Rosin Cart",
+      brand: "In-house",
+      price: "$55.00",
+      compareAt: null,
+      image: "images/uploads/in-house-live-rosin-cart-1g.png",
+      alt: "1G Live Rosin Cart",
+      description: "In-house 1 gram live rosin cart made for a premium rosin taste without feeling like each hit burns through the wallet. Current strains include Blues, High Five, Live Long and Prosper, 5 Alive, Purple Urkle, and Life Savers.",
+      facts: [
+        ["Hardware", "Cartridge"],
+        ["Brand", "In-house"],
+        ["Size", "1g"],
+        ["Oil", "Live rosin"],
+        ["Strains", "Blues, High Five, Live Long and Prosper, 5 Alive, Purple Urkle, Life Savers"],
+        ["1 Unit", "$55"],
+        ["2 Units", "$95"],
+        ["3 Units", "$130"],
+        ["4 Units", "$165"],
+        ["5 Units", "$200"],
+        ["10 Units", "$325"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "caliplug-cart-1g": {
+      title: "1G CaliPlug Cart",
+      brand: "CaliPlug",
+      price: "$35.00",
+      compareAt: null,
+      image: "images/uploads/caliplug-cart-1g.png",
+      alt: "1G CaliPlug Cart",
+      description: "1 gram CaliPlug THC cartridge with clean cannabis oil cart hardware and simple quantity tier pricing through the Dispos/Carts menu.",
+      facts: [
+        ["Hardware", "Cartridge"],
+        ["Brand", "CaliPlug"],
+        ["Size", "1g"],
+        ["Oil", "Cannabis oil"],
+        ["1 Unit", "$35"],
+        ["2 Units", "$55"],
+        ["3 Units", "$80"],
+        ["4 Units", "$95"],
+        ["5 Units", "$110"],
+        ["10 Units", "$175"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "tier-1-rosin-dispos": {
+      title: "Tier 1 Rosin Dispos",
+      brand: "Tier 1 Rosin",
+      price: "$60.00",
+      compareAt: null,
+      image: "images/uploads/tier-1-rosin-dispos.png",
+      alt: "Tier 1 Rosin Dispos",
+      description: "Tier 1 rosin disposables with mind-boggling rosin quality and strain options including Grapeade, Rainbow Guava, and Saddle Bags. Orders under 10 count can choose a max of 2 strains; orders over 10 count may mix and match evenly.",
+      facts: [
+        ["Hardware", "Disposable"],
+        ["Tier", "Tier 1"],
+        ["Oil", "Rosin"],
+        ["Strains", "Grapeade, Rainbow Guava, Saddle Bags"],
+        ["Under 10ct", "Max 2 strain choices"],
+        ["Over 10ct", "Mix and match evenly"],
+        ["1 Unit", "$60"],
+        ["2 Units", "$110"],
+        ["3 Units", "$150"],
+        ["4 Units", "$195"],
+        ["5 Units", "$225"],
+        ["10 Units", "$385"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
     "coldfire-cart-1g-authentic": {
       title: "1G ColdFire Cart - Authentic",
       brand: "ColdFire",
@@ -1298,6 +1783,77 @@ const productOverrides = {
         ["100 Units", "$400"],
         ["250 Units", "$800"],
         ["500 Units", "$1300"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "jefferey-single-infused-joint": {
+      title: "Jefferey Single Infused Joint",
+      brand: "West Coast Cure",
+      price: "$50.00",
+      compareAt: null,
+      image: "images/edibles/jefferey-single-infused-joint.png",
+      alt: "Jefferey Single Infused Joint by West Coast Cure",
+      description: "Jefferey single infused joints by West Coast Cure, shown with 1.2g single pack joints and rotating strain options. Each joint is infused with diamonds and priced with simple quantity tiers.",
+      facts: [
+        ["Format", "Single infused joint"],
+        ["Line", "Jefferey"],
+        ["Brand", "West Coast Cure"],
+        ["Infusion", "Diamonds"],
+        ["Size", "1.2g joint"],
+        ["Options", "Red Delicious, OG Kush, Blue Dream, Lemon Burst, Frozen Cherries, and rotating single-pack options"],
+        ["1 Unit", "$50"],
+        ["2 Units", "$95"],
+        ["3 Units", "$135"],
+        ["4 Units", "$175"],
+        ["5 Units", "$210"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "710-labs-hash-rosin-gummy-authentic": {
+      title: "710 LABS HASH ROSIN GUMMY Authentic",
+      brand: "710 Labs",
+      price: "$60.00",
+      compareAt: null,
+      image: "images/edibles/710-labs-hash-rosin-gummy-authentic.png",
+      alt: "710 Labs Hash Rosin Gummy Authentic",
+      description: "Authentic 710 Labs cannabis-infused hash rosin gummies. Full spectrum handmade rosin gummies with a clean white pouch look and simple tier pricing.",
+      facts: [
+        ["Format", "Hash rosin gummy"],
+        ["Brand", "710 Labs"],
+        ["Type", "Cannabis-infused full spectrum rosin gummy"],
+        ["Pack", "10 gummies per pack"],
+        ["Dose", "10mg THC and 10mg CBD per piece"],
+        ["Pack Total", "100mg THC and 100mg CBD per pack"],
+        ["1 Unit", "$60"],
+        ["2 Units", "$115"],
+        ["3 Units", "$155"],
+        ["4 Units", "$200"],
+        ["5 Units", "$245"],
+        ["10+", "Contact on TG"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
+    "haze-main-thc-chocolate": {
+      title: "Haze & Main THC Chocolate",
+      brand: "Haze & Main",
+      price: "$30.00",
+      compareAt: null,
+      image: "images/edibles/haze-main-thc-chocolate.png",
+      alt: "Haze & Main THC Chocolate 100mg cake batter bar",
+      description: "Haze & Main THC Chocolate is a cannabis-infused 100mg chocolate bar with a cake batter profile and colorful speckled pieces. Simple quantity tiers make it easy to add one bar or build a larger order.",
+      facts: [
+        ["Format", "THC chocolate bar"],
+        ["Brand", "Haze & Main"],
+        ["Flavor", "Cake Batter"],
+        ["Strength", "100mg THC per bar"],
+        ["Type", "Cannabis-infused chocolate"],
+        ["1 Unit", "$30"],
+        ["2 Units", "$50"],
+        ["3 Units", "$65"],
+        ["4 Units", "$80"],
+        ["5 Units", "$90"],
+        ["10 Units", "$120"],
+        ["10+", "Contact on TG"],
         ["Ordering", "Add to cart and finish through Telegram"]
       ]
     },
@@ -1849,6 +2405,24 @@ const productOverrides = {
     }
   }
 };
+
+const flowerProductAliases = [
+  ["3bros-premium-flower-half-oz-jar", "apple-mac-awesome-dope-indoor-flower-7g"],
+  ["white-cherries-boutique-indoor", "lucky-ztrike-flower-7g"],
+  ["orange-fanta-boutique-indoor", "mambaz-milk-flower-7g"],
+  ["lucky-charms-boutique-indoor", "one-og-west-coast-x-bomb-redstash-indoor-flower-3-5g"],
+  ["killer-og-boutique-indoor", "orange-apricot-awesome-dope-indoor-flower-3-5g"],
+  ["green-gumbo-boutique-indoor", "peanut-butter-glue-awesome-dope-indoor-flower-3-5g"],
+  ["cheesecake-boutique-indoor", "peanut-butter-glue-awesome-dope-indoor-flower-7g"],
+  ["starburst-top-shelf", "rail-up-blem-flower-3-5g"],
+  ["confetti-cake-top-shelf", "red-hotz-flower-7g"]
+];
+
+for (const [aliasSlug, sourceSlug] of flowerProductAliases) {
+  if (productOverrides.flower[sourceSlug] && !productOverrides.flower[aliasSlug]) {
+    productOverrides.flower[aliasSlug] = { ...productOverrides.flower[sourceSlug] };
+  }
+}
 
 const brandPatterns = [
   ["awesome-dope", "Awesome Dope"], ["clubhouse-drops", "Clubhouse Drops"], ["preferred-gardens", "Preferred Gardens"],
@@ -3752,7 +4326,24 @@ function catalogSlugsForCategory(category) {
   }
 
   const available = new Set(slugsForCategory(category));
-  return explicitOrder.filter((slug) => available.has(slug) && isActiveProductSlug(category, slug));
+  return explicitOrder.filter((slug) => (available.has(slug) || getProductOverride(category, slug)) && isActiveProductSlug(category, slug));
+}
+
+function buildFlowerCatalog(flowerHtml) {
+  const baseProducts = applyProductOverrides(
+    "flower",
+    parseFlowerProducts(flowerHtml).filter((product) => isActiveProductSlug("flower", product.slug))
+  );
+  const baseSlugs = new Set(baseProducts.map((product) => product.slug));
+  const explicitExtraSlugs = (categoryProductOrder.flower || []).filter((slug) => (
+    !baseSlugs.has(slug) &&
+    getProductOverride("flower", slug) &&
+    isActiveProductSlug("flower", slug)
+  ));
+  return [
+    ...enrichProducts("flower", baseProducts),
+    ...generateProductsFromSlugs("flower", explicitExtraSlugs)
+  ];
 }
 
 function restoreCachedPages() {
@@ -3897,7 +4488,7 @@ Sitemap: ${absoluteUrl("sitemap.xml")}
 
 const { flowerHtml } = restoreCachedPages();
 const catalog = {
-  flower: enrichProducts("flower", applyProductOverrides("flower", parseFlowerProducts(flowerHtml).filter((product) => isActiveProductSlug("flower", product.slug)))),
+  flower: buildFlowerCatalog(flowerHtml),
   concentrates: generateProductsFromSlugs("concentrates", catalogSlugsForCategory("concentrates")),
   edibles: generateProductsFromSlugs("edibles", catalogSlugsForCategory("edibles")),
   mushies: generateProductsFromSlugs("mushies", slugsForCategory("mushies")),
