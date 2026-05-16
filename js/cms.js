@@ -634,7 +634,7 @@
     link.click();
     link.remove();
     URL.revokeObjectURL(url);
-    setMessage("catalog.json exported.");
+    setMessage("catalog.json exported. Replace data/catalog.json before redeploy.");
   }
 
   async function saveCatalogFile() {

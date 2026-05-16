@@ -903,6 +903,230 @@
     });
   }
 
+  function escapeHtml(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function catalogPageByCategory(category) {
+    const pages = {
+      flower: "flower.html",
+      concentrates: "concentrates.html",
+      edibles: "edibles.html",
+      mushies: "mushies.html",
+      "dispos-carts": "dispos.html"
+    };
+    return pages[category] || "home.html#shop";
+  }
+
+  function labelByCategory(category) {
+    const labels = {
+      flower: "Flower",
+      concentrates: "Concentrates",
+      edibles: "Edibles & Prerolls",
+      mushies: "Mushies",
+      "dispos-carts": "Dispos/Carts"
+    };
+    return labels[category] || "Products";
+  }
+
+  function categoryFromPage(page) {
+    const map = {
+      flower: "flower",
+      concentrates: "concentrates",
+      edibles: "edibles",
+      mushies: "mushies",
+      dispos: "dispos-carts"
+    };
+    return map[page] || null;
+  }
+
+  let catalogRequest = null;
+
+  function loadCatalog() {
+    if (!catalogRequest) {
+      catalogRequest = fetch(`${getSiteRoot()}data/catalog.json?v=${Date.now()}`, { cache: "no-store" })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Catalog not available");
+          }
+          return response.json();
+        });
+    }
+    return catalogRequest;
+  }
+
+  function getCatalogCategory(catalog, categoryId) {
+    if (!catalog) {
+      return null;
+    }
+
+    if (Array.isArray(catalog.categories)) {
+      return catalog.categories.find(function (category) {
+        return category && category.id === categoryId;
+      }) || null;
+    }
+
+    if (catalog.categories && catalog.categories[categoryId]) {
+      const category = catalog.categories[categoryId];
+      return Array.isArray(category) ? { id: categoryId, products: category } : category;
+    }
+
+    if (catalog[categoryId]) {
+      const category = catalog[categoryId];
+      return Array.isArray(category) ? { id: categoryId, products: category } : category;
+    }
+
+    return null;
+  }
+
+  function activeCatalogProducts(catalog, categoryId) {
+    const category = getCatalogCategory(catalog, categoryId);
+    const products = category && Array.isArray(category.products) ? category.products : [];
+    return products.filter(function (product) {
+      return product && product.status !== "inactive" && product.active !== false;
+    });
+  }
+
+  function productImage(product) {
+    return product.image || "images/trader-growz-logo-icon-20260424.png";
+  }
+
+  function cartPriceForProduct(product) {
+    return product.cartPrice || product.price || "$0.00";
+  }
+
+  function productDetailUrl(category, product) {
+    return `${getSiteRoot()}product.html?category=${encodeURIComponent(category)}&slug=${encodeURIComponent(product.slug)}`;
+  }
+
+  function buildCatalogPriceMarkup(product, priceClass) {
+    const price = String(product.price || "$0.00");
+    if (!price.trim().startsWith("$")) {
+      return `<span class="${priceClass}">${escapeHtml(price)}</span>`;
+    }
+
+    const compareAt = product.compareAt ? `<span class="line-through">${escapeHtml(product.compareAt)}</span> ` : "";
+    return `<span class="align-middle text-xs font-black uppercase tracking-[0.14em] text-white/50">USD</span> ${compareAt}<span class="${priceClass}">${escapeHtml(price)}</span>`;
+  }
+
+  function buildCatalogMinimumMarkup(product) {
+    return product.minimumLabel
+      ? `<p class="mt-2 text-sm font-black uppercase tracking-[0.12em] text-ink/65">${escapeHtml(product.minimumLabel)}</p>`
+      : "";
+  }
+
+  function cartArg(value) {
+    return escapeHtml(JSON.stringify(String(value)));
+  }
+
+  function buildCatalogProductCard(product, category, headingClass) {
+    const title = product.title || "Untitled Product";
+    const brand = product.brand || labelByCategory(category);
+    const url = productDetailUrl(category, product);
+    return `        <article class="product-card"><a href="${url}" class="product-card-link" aria-label="View details for ${escapeHtml(title)}"><img src="${escapeHtml(productImage(product))}" alt="${escapeHtml(product.alt || title)}" loading="lazy"></a><div class="p-5"><p class="badge mb-3 px-3 py-2">${escapeHtml(brand)}</p><h2 class="${headingClass} font-black text-white"><a href="${url}" class="product-card-link">${escapeHtml(title)}</a></h2><p class="mt-3 text-base font-bold text-white/60">${buildCatalogPriceMarkup(product, "text-2xl font-black text-leaf")}</p>${buildCatalogMinimumMarkup(product)}<button type="button" onclick="addToCart(${cartArg(title)}, ${cartArg(cartPriceForProduct(product))})" class="btn-primary mt-5 w-full px-5">Add to Cart</button></div></article>`;
+  }
+
+  async function setupCatalogProductGrid(page) {
+    const category = categoryFromPage(page);
+    const grid = document.querySelector("[data-products-per-page]");
+
+    if (!category || !grid) {
+      return;
+    }
+
+    try {
+      const catalog = await loadCatalog();
+      const products = activeCatalogProducts(catalog, category);
+      if (!products.length) {
+        return;
+      }
+
+      grid.innerHTML = products.map(function (product) {
+        return buildCatalogProductCard(product, category, "text-2xl");
+      }).join("\n");
+
+      const pagination = document.getElementById("product-pagination");
+      if (pagination) {
+        pagination.innerHTML = "";
+      }
+    } catch {
+      // Keep the generated static product grid as the fallback.
+    }
+  }
+
+  function getProductFacts(product) {
+    if (Array.isArray(product.facts) && product.facts.length) {
+      return product.facts.map(function (fact) {
+        if (Array.isArray(fact)) {
+          return [fact[0], fact[1]];
+        }
+        return [fact.label, fact.value];
+      }).filter(function (fact) {
+        return fact[0] && fact[1];
+      });
+    }
+
+    return [
+      ["Brand", product.brand || "Trader Growz"],
+      ["Status", product.status === "inactive" ? "Inactive" : "Active"],
+      ["Ordering", "Add to cart and finish through Telegram"]
+    ];
+  }
+
+  async function setupDynamicProductPage() {
+    const target = document.getElementById("dynamic-product-detail");
+    if (!target) {
+      return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get("category") || "";
+    const slug = params.get("slug") || "";
+
+    try {
+      const catalog = await loadCatalog();
+      const products = activeCatalogProducts(catalog, category);
+      const product = products.find(function (item) {
+        return item.slug === slug;
+      });
+
+      if (!product) {
+        target.innerHTML = `<section class="product-detail-wrap px-4 py-16 sm:px-6 lg:px-8"><div class="surface mx-auto max-w-3xl p-6 sm:p-8"><p class="badge mb-4 px-3 py-2">Product</p><h1 class="text-3xl font-black text-white">Product not found</h1><p class="mt-4 text-white/70">This product is not in the current catalog.</p><a href="${getSiteRoot()}home.html#shop" class="btn-primary mt-7 px-7">Back to Store</a></div></section>`;
+        return;
+      }
+
+      document.title = `${product.title} | Trader Growz`;
+      const related = products.filter(function (item) {
+        return item.slug !== product.slug;
+      }).slice(0, 3);
+      const facts = getProductFacts(product).map(function (fact) {
+        return `<div class="product-fact"><span class="product-fact-label">${escapeHtml(fact[0])}</span><span class="product-fact-value">${escapeHtml(fact[1])}</span></div>`;
+      }).join("\n");
+      const gallery = Array.isArray(product.gallery) && product.gallery.length
+        ? `<div class="mt-6 grid gap-4 sm:grid-cols-2">${product.gallery.map(function (image, index) {
+          return `<div class="surface overflow-hidden p-3"><img src="${escapeHtml(image)}" alt="${escapeHtml(product.alt || product.title)} detail view ${index + 2}" class="w-full rounded-lg object-cover"></div>`;
+        }).join("")}</div>`
+        : "";
+      const video = product.video
+        ? `<div class="surface mt-6 overflow-hidden p-4 sm:p-6"><p class="mb-3 text-sm font-black uppercase tracking-[0.2em] text-white/55">Product Video</p><video controls playsinline preload="metadata" poster="${escapeHtml(productImage(product))}" class="w-full rounded-lg bg-black"><source src="${escapeHtml(product.video)}" type="video/mp4">Your browser does not support the video tag.</video></div>`
+        : "";
+
+      target.innerHTML = `
+        <section class="product-detail-wrap px-4 py-16 sm:px-6 lg:px-8"><div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_1.05fr] lg:items-start"><div class="product-detail-media"><div class="surface overflow-hidden p-4 sm:p-6"><img src="${escapeHtml(productImage(product))}" alt="${escapeHtml(product.alt || product.title)}" class="w-full rounded-lg object-cover"></div>${gallery}${video}</div><div class="product-detail-copy"><p class="badge mb-4 px-3 py-2">${escapeHtml(product.brand || labelByCategory(category))}</p><h1 class="product-detail-title text-4xl font-black text-white sm:text-5xl">${escapeHtml(product.title)}</h1><p class="product-detail-price mt-5 text-base font-bold text-white/60">${buildCatalogPriceMarkup(product, "text-3xl font-black text-leaf")}</p>${buildCatalogMinimumMarkup(product)}<p class="product-detail-description mt-6 text-white/70">${escapeHtml(product.description || `${product.title} is part of the current Trader Growz catalog.`)}</p><div class="product-meta-strip mt-8 grid gap-4 sm:grid-cols-2">${facts}</div><div class="product-buy-row mt-8 flex flex-col gap-4 sm:flex-row"><button type="button" onclick="addToCart(${cartArg(product.title)}, ${cartArg(cartPriceForProduct(product))})" class="btn-primary px-7">Add to Cart</button><a href="${getSiteRoot()}cart.html" class="btn-secondary px-7">View Cart</a></div><p class="mt-5 text-sm font-semibold text-white/55">Reserve ${escapeHtml(product.title)} now and send the finished order through Telegram once your cart is ready.</p><div class="mt-8"><a href="${getSiteRoot()}${catalogPageByCategory(category)}" class="btn-secondary px-7">Back to ${escapeHtml(labelByCategory(category))}</a></div></div></div></section>
+        <section class="section-band px-4 py-16 sm:px-6 lg:px-8"><div class="mx-auto max-w-7xl"><div class="mb-10 max-w-3xl"><p class="badge mb-4 px-3 py-2">Related Products</p><h2 class="text-3xl font-black text-white sm:text-4xl">Keep the cart moving</h2><p class="mt-3 text-white/70">More picks from the same category so the order stays easy to build.</p></div><div class="product-grid grid gap-6 sm:grid-cols-2 lg:grid-cols-3">${related.map(function (item) {
+          return buildCatalogProductCard(item, category, "text-xl");
+        }).join("\n")}</div></div></section>
+      `;
+    } catch {
+      target.innerHTML = `<section class="product-detail-wrap px-4 py-16 sm:px-6 lg:px-8"><div class="surface mx-auto max-w-3xl p-6 sm:p-8"><p class="badge mb-4 px-3 py-2">Catalog</p><h1 class="text-3xl font-black text-white">Catalog could not load</h1><p class="mt-4 text-white/70">Check that data/catalog.json was uploaded with the site.</p><a href="${getSiteRoot()}home.html#shop" class="btn-primary mt-7 px-7">Back to Store</a></div></section>`;
+    }
+  }
+
   function setupLuxuryLoader() {
     const page = document.body.dataset.page;
 
@@ -1290,7 +1514,7 @@
     setCartMessage(`${productName} added to cart.`);
   };
 
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", async function () {
     const page = document.body.dataset.page;
 
     resetAccessIfRequested();
@@ -1331,6 +1555,8 @@
       setupNewReleasesCarousel();
     }
 
+    await setupCatalogProductGrid(page);
+    await setupDynamicProductPage();
     setupProductPagination();
     setupGsapAnimations();
     setupRevealOnScroll();

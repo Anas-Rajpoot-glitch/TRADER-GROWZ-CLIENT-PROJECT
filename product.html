@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>Product | Trader Growz</title>
+  <script>window.tailwind=window.tailwind||{};window.tailwind.config={theme:{extend:{colors:{night:"#ffffff",ink:"#171111",leaf:"#db0111",ember:"#a8000d",honey:"#ffe9ec"}}}};</script>
+  <link rel="icon" type="image/png" href="images/trader-growz-logo-icon-20260424.png?v=20260517-catalog-runtime">
+  <link rel="apple-touch-icon" href="images/trader-growz-logo-icon-20260424.png?v=20260517-catalog-runtime">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css?v=20260517-catalog-runtime">
+  <link rel="stylesheet" href="css/logo-red-theme.css?v=20260424-logo-red">
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script defer src="js/script.js?v=20260517-catalog-runtime"></script>
+</head>
+<body data-page="product-dynamic" data-protected="true">
+  <header class="site-header sticky top-0 z-50">
+    <div class="promo-bar">Grand Opening Sale: 10% off sitewide</div>
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <a href="home.html" class="brand-mark" aria-label="Trader Growz home"><img src="images/trader-growz-logo-icon-20260424.png?v=20260517-catalog-runtime" alt="Trader Growz"></a>
+      <div class="hidden items-center gap-7 lg:flex">
+        <a href="home.html" class="nav-link">Home</a>
+        <div class="shop-dropdown relative">
+          <button type="button" class="nav-link">Shop</button>
+          <div class="desktop-dropdown absolute left-0 top-full pt-4"><div class="dropdown-panel p-2">
+            <a href="flower.html" class="dropdown-item px-4 py-3">Flower</a><a href="mushies.html" class="dropdown-item px-4 py-3">Mushies</a><a href="concentrates.html" class="dropdown-item px-4 py-3">Concentrates</a><a href="edibles.html" class="dropdown-item px-4 py-3">Edibles &amp; Prerolls</a><a href="dispos.html" class="dropdown-item px-4 py-3">Dispos/Carts</a>
+          </div></div>
+        </div>
+        <a href="order.html" class="nav-link">Order</a><a href="faqs.html" class="nav-link">FAQs</a><a href="contact.html" class="nav-link">Contact Us</a>
+      </div>
+      <div class="header-social-links ml-auto mr-3 lg:ml-0 lg:mr-0" aria-label="Social links">
+        <a href="https://callup.luffa.im/c/ZDpPd114Xwh" target="_blank" rel="noopener" class="social-nav-link" aria-label="Join Luffa"><span class="social-label">Join Luffa</span><span class="social-icon luffa-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 6.8A4.8 4.8 0 0 1 8.8 2h6.4A4.8 4.8 0 0 1 20 6.8v4.9a4.8 4.8 0 0 1-4.8 4.8H11l-5.2 4.1v-4.4A4.8 4.8 0 0 1 4 12.5V6.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 8.5h8M8 12h5.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></a>
+        <a href="https://www.instagram.com/tradergrowz?igsh=MXBpcDZqaWVxaHJ5eA==" target="_blank" rel="noopener" class="social-nav-link" aria-label="Follow Trader Growz on Instagram"><span class="social-label">Follow Us</span><span class="social-icon instagram-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><rect x="4" y="4" width="16" height="16" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16.7" cy="7.3" r="1.1" fill="currentColor"/></svg></span></a>
+      </div>
+      <a href="cart.html" class="cart-icon-link mr-3 lg:mr-0" aria-label="View cart"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.4 6h15l-1.7 8.2a2 2 0 0 1-2 1.6H9.1a2 2 0 0 1-2-1.6L5.3 3.8H2.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="20" r="1.4" fill="currentColor"/><circle cx="18" cy="20" r="1.4" fill="currentColor"/></svg><span class="cart-count">0</span></a>
+      <button id="mobile-menu-toggle" type="button" class="grid h-11 w-11 place-items-center rounded-lg border border-white/15 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span class="space-y-1.5"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></span></button>
+    </nav>
+    <div id="mobile-menu" class="mobile-menu lg:hidden"><div class="mx-auto max-w-7xl px-4 py-4 sm:px-6">
+      <a href="home.html" class="block py-3 font-bold text-white/80">Home</a>
+      <button id="mobile-shop-toggle" type="button" class="flex w-full items-center justify-between py-3 font-bold text-white/80" aria-expanded="false" aria-controls="mobile-shop-panel">Shop<span class="text-leaf">+</span></button>
+      <div id="mobile-shop-panel" class="mobile-shop-panel"><div class="grid gap-1 border-l border-white/10 pl-4">
+        <a href="flower.html" class="py-2 text-white/70">Flower</a><a href="mushies.html" class="py-2 text-white/70">Mushies</a><a href="concentrates.html" class="py-2 text-white/70">Concentrates</a><a href="edibles.html" class="py-2 text-white/70">Edibles &amp; Prerolls</a><a href="dispos.html" class="py-2 text-white/70">Dispos/Carts</a>
+      </div></div>
+      <a href="order.html" class="block py-3 font-bold text-white/80">Order</a><a href="faqs.html" class="block py-3 font-bold text-white/80">FAQs</a><a href="contact.html" class="block py-3 font-bold text-white/80">Contact Us</a>
+    </div></div>
+  </header>
+
+  <main id="dynamic-product-detail">
+    <section class="product-detail-wrap px-4 py-16 sm:px-6 lg:px-8">
+      <div class="surface mx-auto max-w-3xl p-6 sm:p-8">
+        <p class="badge mb-4 px-3 py-2">Product</p>
+        <h1 class="text-3xl font-black text-white">Loading product...</h1>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer px-4 py-8 sm:px-6 lg:px-8"><div class="mx-auto flex max-w-7xl flex-col gap-5 md:flex-row md:items-center md:justify-between"><div><a href="home.html" class="brand-mark" aria-label="Trader Growz home"><img src="images/trader-growz-logo-icon-20260424.png?v=20260517-catalog-runtime" alt="Trader Growz"></a><p class="legal-copy mt-3 max-w-2xl text-sm">This website is intended for 21+ users. All products comply with applicable laws (THCA disclaimer).</p></div><div class="flex flex-wrap gap-4 text-sm"><a href="privacy.html" class="footer-link">Privacy Policy</a><a href="terms.html" class="footer-link">Terms &amp; Conditions</a><a href="return-policy.html" class="footer-link">Return Policy</a><a href="shipping.html" class="footer-link">Shipping Disclaimer</a><a href="contact.html" class="footer-link">Contact</a></div></div></footer>
+</body>
+</html>

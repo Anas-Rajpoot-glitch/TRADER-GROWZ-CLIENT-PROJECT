@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const root = process.cwd();
-const version = "20260513-catalog-update1";
+const version = "20260517-catalog-runtime";
 const cmsCatalogPath = path.join(root, "data", "catalog.json");
 const logoFile = "trader-growz-logo-icon-20260424.png";
 const siteOrigin = (process.env.SITE_ORIGIN || "https://tradergrowz.ca").replace(/\/+$/, "");
@@ -4623,6 +4623,7 @@ function buildSitemap(productCatalog) {
     ["edibles.html", "daily", "0.9"],
     ["mushies.html", "daily", "0.9"],
     ["dispos.html", "daily", "0.9"],
+    ["product.html", "daily", "0.7"],
     ["order.html", "weekly", "0.7"],
     ["faqs.html", "weekly", "0.7"],
     ["contact.html", "monthly", "0.6"],
