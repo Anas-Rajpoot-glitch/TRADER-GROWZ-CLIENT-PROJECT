@@ -18,7 +18,9 @@
     statusFilter: "active",
     fileHandle: null,
     dirty: false,
-    message: "Loading catalog..."
+    message: "Loading catalog...",
+    editorNotice: "",
+    keepEditorEmpty: false
   };
 
   const nodes = {};
@@ -278,7 +280,11 @@
     if (!product) {
       nodes.editor.innerHTML = `
         <div class="cms-empty">
-          <div><strong>No product selected</strong><span>Add a product or choose one from the list.</span></div>
+          <div>
+            ${state.editorNotice ? `<p class="cms-editor-notice">${escapeHtml(state.editorNotice)}</p>` : ""}
+            <strong>${state.editorNotice ? "Ready for another product" : "No product selected"}</strong>
+            <span>${state.editorNotice ? "Click Add Product to enter the next item." : "Add a product or choose one from the list."}</span>
+          </div>
         </div>
       `;
       return;
@@ -295,6 +301,7 @@
           <button type="button" id="remove-product" class="cms-button danger">Remove</button>
         </div>
       </div>
+      ${state.editorNotice ? `<p class="cms-editor-notice">${escapeHtml(state.editorNotice)}</p>` : ""}
 
       <form id="cms-product-form" class="cms-form">
         <div class="cms-preview">
@@ -381,7 +388,9 @@
   }
 
   function render() {
-    ensureSelection();
+    if (!state.keepEditorEmpty) {
+      ensureSelection();
+    }
     renderToolbar();
     renderTabs();
     renderProductList();
@@ -516,6 +525,7 @@
         return;
       }
 
+      const isNewProduct = currentProduct._cmsNew === true;
       const values = collectForm(form, currentProduct);
       const targetCategory = values.category;
       delete values.category;
@@ -534,8 +544,19 @@
       if (!currentProduct.alt) {
         currentProduct.alt = currentProduct.title;
       }
-      state.selectedSlug = currentProduct.slug;
-      markDirty(`${currentProduct.title} saved.`);
+      delete currentProduct._cmsNew;
+
+      if (isNewProduct) {
+        state.selectedSlug = null;
+        state.keepEditorEmpty = true;
+        state.editorNotice = "Product added successfully.";
+        markDirty("Product added successfully.");
+      } else {
+        state.selectedSlug = currentProduct.slug;
+        state.keepEditorEmpty = false;
+        state.editorNotice = "Product saved successfully.";
+        markDirty("Product saved successfully.");
+      }
     });
 
     duplicate.addEventListener("click", function () {
@@ -563,7 +584,8 @@
       video: null,
       alt: "New Product",
       description: "",
-      facts: []
+      facts: [],
+      _cmsNew: true
     };
   }
 
@@ -572,6 +594,8 @@
     currentProducts().unshift(product);
     state.selectedSlug = product.slug;
     state.statusFilter = "all";
+    state.keepEditorEmpty = false;
+    state.editorNotice = "";
     markDirty("New product added.");
   }
 
@@ -582,6 +606,8 @@
     currentProducts().unshift(copy);
     state.selectedSlug = copy.slug;
     state.statusFilter = "all";
+    state.keepEditorEmpty = false;
+    state.editorNotice = "";
     markDirty(`${copy.title} added.`);
   }
 
@@ -667,6 +693,8 @@
     state.catalog = normalizeCatalog(data);
     state.category = "flower";
     state.selectedSlug = null;
+    state.keepEditorEmpty = false;
+    state.editorNotice = "";
     state.dirty = true;
     state.message = message || "Catalog imported.";
     saveDraft();
@@ -715,11 +743,16 @@
       state.catalog = normalizeCatalog(data);
       state.category = "flower";
       state.selectedSlug = null;
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
       state.dirty = false;
       state.message = "Published catalog loaded.";
       render();
     } catch {
       state.catalog = emptyCatalog();
+      state.selectedSlug = null;
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
       state.message = "Published catalog was not found. Empty draft loaded.";
       render();
     }
@@ -733,6 +766,8 @@
       }
       state.category = button.dataset.category;
       state.selectedSlug = null;
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
       render();
     });
 
@@ -757,18 +792,24 @@
       }
 
       state.selectedSlug = slug;
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
       render();
     });
 
     nodes.search.addEventListener("input", function () {
       state.query = nodes.search.value;
       state.selectedSlug = null;
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
       render();
     });
 
     nodes.statusFilter.addEventListener("change", function () {
       state.statusFilter = nodes.statusFilter.value;
       state.selectedSlug = null;
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
       render();
     });
 
@@ -816,6 +857,8 @@
         state.catalog = normalizeCatalog(JSON.parse(draft));
         state.dirty = true;
         state.message = "Draft restored.";
+        state.keepEditorEmpty = false;
+        state.editorNotice = "";
         render();
         return;
       } catch {
@@ -827,9 +870,13 @@
       const data = await loadPublishedCatalog();
       state.catalog = normalizeCatalog(data);
       state.message = "Published catalog loaded.";
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
     } catch {
       state.catalog = emptyCatalog();
       state.message = "Catalog file not found. Empty draft loaded.";
+      state.keepEditorEmpty = false;
+      state.editorNotice = "";
     }
 
     render();
