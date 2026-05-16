@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T21:38:05.893Z",
+  "updatedAt": "2026-05-16T21:41:10.377Z",
   "site": {
     "name": "Trader Growz",
     "currency": "USD"
@@ -4096,22 +4096,6 @@
       "products": [
         {
           "status": "active",
-          "slug": "test",
-          "title": "Testing product",
-          "brand": "Mushies",
-          "price": "$100",
-          "compareAt": "$120",
-          "minimumLabel": null,
-          "cartPrice": null,
-          "image": "images/trader-growz-logo-icon-20260424.png",
-          "gallery": [],
-          "video": null,
-          "alt": "TEST",
-          "description": "This is a test product",
-          "facts": []
-        },
-        {
-          "status": "active",
           "slug": "albino-blend-mushies-3-5g",
           "title": "Bluie Vuitton Shrooms",
           "brand": "Bluie Vuitton",
@@ -4483,6 +4467,22 @@
               "value": "Add to cart and finish through Telegram"
             }
           ]
+        },
+        {
+          "status": "active",
+          "slug": "new-product-1778967603090",
+          "title": "New Product",
+          "brand": "Mushies",
+          "price": "$0.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/trader-growz-logo-icon-20260424.png",
+          "gallery": [],
+          "video": null,
+          "alt": "New Product",
+          "description": "",
+          "facts": []
         }
       ]
     },
