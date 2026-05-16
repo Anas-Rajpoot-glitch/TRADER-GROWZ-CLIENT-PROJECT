@@ -1273,6 +1273,28 @@ const productOverrides = {
     }
   },
   "dispos-carts": {
+    "raw-garden-1g-cartridge-authentic": {
+      title: "Raw Garden 1g Cartridge Authentic",
+      brand: "Raw Garden",
+      price: "$65.00",
+      compareAt: null,
+      image: "images/uploads/raw-garden-1g-cartridge-authentic-1.png",
+      alt: "Raw Garden 1g Cartridge Authentic",
+      description: "Authentic Raw Garden 1g refined live resin cartridge. Real Raw Garden quality — clean oil, consistent hits, and strain-specific live resin for the cart shoppers who know what they want.",
+      facts: [
+        ["Brand", "Raw Garden"],
+        ["Authentic", "Yes"],
+        ["Hardware", "Cartridge"],
+        ["Oil", "Refined Live Resin"],
+        ["Size", "1g"],
+        ["1 Unit", "$65"],
+        ["2 Units", "$125"],
+        ["3 Units", "$175"],
+        ["4 Units", "$230"],
+        ["5 Units", "$280"],
+        ["Ordering", "Add to cart and finish through Telegram"]
+      ]
+    },
     "blueberry-freezer-stky-disposable-2g": {
       title: "Authentic ColdFire Half G Rosin Dispo",
       brand: "ColdFire",
