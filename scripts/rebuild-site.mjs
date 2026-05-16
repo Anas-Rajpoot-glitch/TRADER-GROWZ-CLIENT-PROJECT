@@ -3,6 +3,7 @@ import path from "path";
 
 const root = process.cwd();
 const version = "20260513-catalog-update1";
+const cmsCatalogPath = path.join(root, "data", "catalog.json");
 const logoFile = "trader-growz-logo-icon-20260424.png";
 const siteOrigin = (process.env.SITE_ORIGIN || "https://tradergrowz.ca").replace(/\/+$/, "");
 const siteDomain = new URL(siteOrigin).hostname;
@@ -65,6 +66,8 @@ const topLevelPages = {
   "pre-rolls": "prerolls.html",
   vapes: "vapes.html"
 };
+
+const managedCategories = ["flower", "concentrates", "edibles", "mushies", "dispos-carts"];
 
 const categoryMeta = {
   flower: ["Flower", "Flower Menu", "Fresh flower products", "Add products to your cart, then send the full order through Telegram at checkout.", "Premium flower picks"],
@@ -2942,6 +2945,15 @@ function humanizeSlug(slug) {
   }).join(" ");
 }
 
+function slugify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-") || "product";
+}
+
 function deriveTitleAndBrand(slug, category) {
   for (const [pattern, label] of brandPatterns) {
     const index = slug.indexOf(pattern);
@@ -3109,12 +3121,13 @@ function inferFacts(product, category) {
 
 function getProductDescription(product, category) {
   const override = getProductOverride(category, product.slug);
-  return override?.description || inferDescription(product, category);
+  return product.description || override?.description || inferDescription(product, category);
 }
 
 function getProductFacts(product, category) {
   const override = getProductOverride(category, product.slug);
-  return applyFactAdjustments(category, product.slug, override?.facts || inferFacts(product, category));
+  const facts = product.facts?.length ? product.facts : override?.facts || inferFacts(product, category);
+  return applyFactAdjustments(category, product.slug, facts);
 }
 
 function buildPriceMarkup(product, priceClass) {
@@ -4369,6 +4382,148 @@ function buildFlowerCatalog(flowerHtml) {
   ];
 }
 
+function cleanOptionalText(value) {
+  const text = String(value || "").trim();
+  return text || null;
+}
+
+function normalizeCmsList(value) {
+  if (Array.isArray(value)) {
+    return value.map((item) => String(item || "").trim()).filter(Boolean);
+  }
+
+  if (typeof value === "string") {
+    return value.split(/\r?\n|,/).map((item) => item.trim()).filter(Boolean);
+  }
+
+  return [];
+}
+
+function normalizeCmsFacts(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value.map((item) => {
+    if (Array.isArray(item)) {
+      return [String(item[0] || "").trim(), String(item[1] || "").trim()];
+    }
+
+    if (item && typeof item === "object") {
+      return [String(item.label || "").trim(), String(item.value || "").trim()];
+    }
+
+    return ["", ""];
+  }).filter(([label, factValue]) => label && factValue);
+}
+
+function normalizeCmsProduct(category, product, index) {
+  const title = String(product.title || product.name || humanizeSlug(product.slug || "")).trim();
+  const slug = slugify(product.slug || title);
+  const image = String(product.image || categoryImages[category]?.[index % categoryImages[category]?.length] || defaultSeoImage).trim();
+  const compareAt = Object.prototype.hasOwnProperty.call(product, "compareAt") ? cleanOptionalText(product.compareAt) : null;
+  const gallery = normalizeCmsList(product.gallery);
+  const video = cleanOptionalText(product.video);
+
+  return {
+    slug,
+    title: title || humanizeSlug(slug),
+    brand: String(product.brand || categoryMeta[category]?.[0] || "Trader Growz").trim(),
+    compareAt,
+    price: String(product.price || "$0.00").trim(),
+    minimumLabel: cleanOptionalText(product.minimumLabel),
+    cartPrice: cleanOptionalText(product.cartPrice),
+    image,
+    video,
+    gallery,
+    alt: String(product.alt || title || humanizeSlug(slug)).trim(),
+    description: cleanOptionalText(product.description),
+    facts: normalizeCmsFacts(product.facts)
+  };
+}
+
+function getCmsCategorySource(data, category) {
+  if (!data) {
+    return null;
+  }
+
+  if (Array.isArray(data.categories)) {
+    const match = data.categories.find((item) => item && item.id === category);
+    return match?.products || [];
+  }
+
+  if (data.categories && typeof data.categories === "object") {
+    const match = data.categories[category];
+    return Array.isArray(match) ? match : match?.products || [];
+  }
+
+  const match = data[category];
+  return Array.isArray(match) ? match : match?.products || [];
+}
+
+function loadCmsCatalog() {
+  if (!fs.existsSync(cmsCatalogPath)) {
+    return null;
+  }
+
+  const data = JSON.parse(readText(cmsCatalogPath));
+  const catalog = {};
+
+  for (const category of managedCategories) {
+    const products = getCmsCategorySource(data, category)
+      .filter((product) => product && product.status !== "inactive" && product.active !== false)
+      .map((product, index) => normalizeCmsProduct(category, product, index));
+
+    catalog[category] = enrichProducts(category, products);
+  }
+
+  return catalog;
+}
+
+function serializeCmsProduct(product, category) {
+  return {
+    status: "active",
+    slug: product.slug,
+    title: product.title,
+    brand: product.brand,
+    price: product.price,
+    compareAt: product.compareAt || null,
+    minimumLabel: product.minimumLabel || null,
+    cartPrice: product.cartPrice || null,
+    image: product.image,
+    gallery: product.gallery || [],
+    video: product.video || null,
+    alt: product.alt || product.title,
+    description: getProductDescription(product, category),
+    facts: getProductFacts(product, category).map(([label, value]) => ({ label, value }))
+  };
+}
+
+function buildCmsCatalogData(productCatalog) {
+  return {
+    version: 1,
+    updatedAt: new Date().toISOString(),
+    site: {
+      name: siteName,
+      currency: siteCurrency
+    },
+    categories: managedCategories.map((category) => ({
+      id: category,
+      label: categoryMeta[category]?.[0] || humanizeSlug(category),
+      page: topLevelPages[category],
+      products: productCatalog[category].map((product) => serializeCmsProduct(product, category))
+    }))
+  };
+}
+
+function writeInitialCmsCatalog(productCatalog) {
+  if (fs.existsSync(cmsCatalogPath)) {
+    return;
+  }
+
+  writeFile("data/catalog.json", `${JSON.stringify(buildCmsCatalogData(productCatalog), null, 2)}\n`);
+}
+
 function restoreCachedPages() {
   const homeHtml = applySeoToExistingPage(
     normalizeSiteLocationContent(normalizeEdiblesCategoryLabel(replaceSharedAssets(readTextWithFallback(cacheHome, path.join(root, "home.html"))))),
@@ -4510,13 +4665,15 @@ Sitemap: ${absoluteUrl("sitemap.xml")}
 }
 
 const { flowerHtml } = restoreCachedPages();
-const catalog = {
+const fallbackCatalog = {
   flower: buildFlowerCatalog(flowerHtml),
   concentrates: generateProductsFromSlugs("concentrates", catalogSlugsForCategory("concentrates")),
   edibles: generateProductsFromSlugs("edibles", catalogSlugsForCategory("edibles")),
   mushies: generateProductsFromSlugs("mushies", slugsForCategory("mushies")),
   "dispos-carts": generateProductsFromSlugs("dispos-carts", catalogSlugsForCategory("dispos-carts"))
 };
+writeInitialCmsCatalog(fallbackCatalog);
+const catalog = loadCmsCatalog() || fallbackCatalog;
 
 rebuildTopLevel(catalog);
 rebuildProducts(catalog);

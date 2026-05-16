@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>TraderGrowz Store CMS</title>
+  <link rel="icon" type="image/png" href="images/trader-growz-logo-icon-20260424.png">
+  <link rel="stylesheet" href="css/style.css?v=20260513-catalog-update1">
+  <link rel="stylesheet" href="css/logo-red-theme.css?v=20260424-logo-red">
+  <link rel="stylesheet" href="css/cms.css?v=20260517-cms">
+  <script defer src="js/cms.js?v=20260517-cms"></script>
+</head>
+<body class="cms-body">
+  <header class="cms-header">
+    <a href="home.html" class="cms-logo" aria-label="Trader Growz home">
+      <img src="images/trader-growz-logo-icon-20260424.png" alt="Trader Growz">
+    </a>
+    <div>
+      <p class="cms-kicker">Store Manager</p>
+      <h1>TraderGrowz CMS</h1>
+    </div>
+    <a class="cms-store-link" href="home.html">View Store</a>
+  </header>
+
+  <main class="cms-shell">
+    <section class="cms-toolbar" aria-label="Catalog actions">
+      <div class="cms-status-wrap">
+        <p id="cms-status" class="cms-status">Loading catalog...</p>
+        <p id="cms-counts" class="cms-counts">0 products</p>
+      </div>
+      <div class="cms-actions">
+        <button type="button" id="open-file" class="cms-button ghost">Open</button>
+        <button type="button" id="import-json" class="cms-button ghost">Import</button>
+        <button type="button" id="export-json" class="cms-button">Export</button>
+        <button type="button" id="save-file" class="cms-button primary">Save File</button>
+        <button type="button" id="reset-draft" class="cms-button danger">Reset</button>
+        <input id="import-input" type="file" accept="application/json,.json" hidden>
+      </div>
+    </section>
+
+    <section class="cms-controls" aria-label="Catalog filters">
+      <div id="category-tabs" class="cms-tabs"></div>
+      <div class="cms-filter-row">
+        <label class="cms-search">
+          <span>Search</span>
+          <input id="product-search" type="search" placeholder="Product, brand, or slug">
+        </label>
+        <label class="cms-select-wrap">
+          <span>Status</span>
+          <select id="status-filter">
+            <option value="active">Active</option>
+            <option value="all">All</option>
+            <option value="inactive">Inactive</option>
+          </select>
+        </label>
+        <button type="button" id="add-product" class="cms-button primary">Add Product</button>
+      </div>
+    </section>
+
+    <section class="cms-layout">
+      <div class="cms-list-panel">
+        <div id="product-list" class="cms-product-list"></div>
+      </div>
+      <aside id="product-editor" class="cms-editor-panel" aria-live="polite"></aside>
+    </section>
+  </main>
+</body>
+</html>

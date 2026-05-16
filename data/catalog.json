@@ -1,0 +1,5789 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-16T21:18:25.566Z",
+  "site": {
+    "name": "Trader Growz",
+    "currency": "USD"
+  },
+  "categories": [
+    {
+      "id": "flower",
+      "label": "Flower",
+      "page": "flower.html",
+      "products": [
+        {
+          "status": "active",
+          "slug": "greenline-premium-indoor-flower-eighths",
+          "title": "Greenline Premium Indoor Flower Eighths",
+          "brand": "Greenline",
+          "price": "$55.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/greenline-premium-indoor-flower-eighths.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Greenline Premium Indoor Flower Eighths",
+          "description": "Authentic CA licensed Greenline premium indoor flower eighths with current strain options including Blockberry, Dosi-Orange #9, Papaya x 33, Pink Certz, and Shake Shack.",
+          "facts": [
+            {
+              "label": "Brand",
+              "value": "Greenline"
+            },
+            {
+              "label": "License",
+              "value": "Authentic CA licensed"
+            },
+            {
+              "label": "Type",
+              "value": "Premium indoor flower"
+            },
+            {
+              "label": "Format",
+              "value": "Eighths"
+            },
+            {
+              "label": "Strains",
+              "value": "Blockberry, Dosi-Orange #9, Papaya x 33, Pink Certz, Shake Shack"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$55"
+            },
+            {
+              "label": "2 Units",
+              "value": "$95"
+            },
+            {
+              "label": "3 Units",
+              "value": "$135"
+            },
+            {
+              "label": "4 Units",
+              "value": "$165"
+            },
+            {
+              "label": "5 Units",
+              "value": "$200"
+            },
+            {
+              "label": "5+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "soma-rosa-sun-grown-flower-oz",
+          "title": "Soma Rosa Sun Grown Flower Oz",
+          "brand": "Soma Rosa Farms",
+          "price": "$160.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/soma-rosa-sun-grown-flower-oz.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Soma Rosa Sun Grown Flower Oz",
+          "description": "Authentic Soma Rosa Farms sun grown flower oz grown with organic, sustainable practices and a hands-on approach. The farm's curated indica, sativa, and hybrid strains are grown under full sun and slow-cured for clean potency, vibrant flavor, smoothness, and environmental responsibility.",
+          "facts": [
+            {
+              "label": "Brand",
+              "value": "Soma Rosa Farms"
+            },
+            {
+              "label": "Authenticity",
+              "value": "Authentic"
+            },
+            {
+              "label": "Type",
+              "value": "Sun grown flower"
+            },
+            {
+              "label": "Format",
+              "value": "1 oz"
+            },
+            {
+              "label": "Farm Style",
+              "value": "Organic, sustainable practices"
+            },
+            {
+              "label": "Cure",
+              "value": "Slow-cured"
+            },
+            {
+              "label": "Strains",
+              "value": "Joker's Candy, Lemon Thai x OG Kush, Lemon Snow Leopard, Govt Oasis, Banana Punch"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$160"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "3 Oz",
+              "value": "$420"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$520"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "brainbow-exotic-indoor-flower",
+          "title": "Brainbow Exotic Indoor",
+          "brand": "Exotic Indoor",
+          "price": "$140.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/brainbow-exotic-indoor-flower.png",
+          "gallery": [
+            "images/uploads/brainbow-exotic-indoor-flower-closeup.png"
+          ],
+          "video": null,
+          "alt": "Brainbow Exotic Indoor",
+          "description": "Brainbow is an exotic indoor strain from Brain Freeze x Zkittles with an interesting nose that is slightly gassy while carrying sweetness from the Z. The purple and green nuggets deliver a relaxing, slightly sedating high for a sweet boost of power.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Exotic Indoor"
+            },
+            {
+              "label": "Strain",
+              "value": "Brainbow"
+            },
+            {
+              "label": "Cross",
+              "value": "Brain Freeze x Zkittles"
+            },
+            {
+              "label": "Nose",
+              "value": "Slightly gassy with sweet Z notes"
+            },
+            {
+              "label": "Buds",
+              "value": "Purple and green nuggets"
+            },
+            {
+              "label": "Effect",
+              "value": "Relaxing and slightly sedating"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$140"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$250"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$450"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$750"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1350"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "animal-sherbet-exotic-indoor-flower",
+          "title": "Animal Sherbet Exotic Indoor",
+          "brand": "Exotic Indoor",
+          "price": "$140.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/animal-sherbet-exotic-indoor-flower.png",
+          "gallery": [
+            "images/uploads/animal-sherbet-exotic-indoor-flower-closeup.png"
+          ],
+          "video": null,
+          "alt": "Animal Sherbet Exotic Indoor",
+          "description": "Animal Sherbet is an exotic indoor strain with notes similar to Wedding Cake and Runtz. It leans into a sweet coating of hot gas that stays on the tongue, with a heavy exhale, relaxing feel, a bit of head stimulation, and oversized nuggets.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Exotic Indoor"
+            },
+            {
+              "label": "Strain",
+              "value": "Animal Sherbet"
+            },
+            {
+              "label": "Notes",
+              "value": "Wedding Cake and Runtz style notes"
+            },
+            {
+              "label": "Terps",
+              "value": "Sweet hot gas"
+            },
+            {
+              "label": "Exhale",
+              "value": "Heavy"
+            },
+            {
+              "label": "Effect",
+              "value": "Relaxing with light head stimulation"
+            },
+            {
+              "label": "Buds",
+              "value": "Oversized nuggets"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$140"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$250"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$450"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$750"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1350"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "cherry-on-top-exotic-indoor-flower",
+          "title": "CHERRY ON TOP Exotic Indoor",
+          "brand": "Exotic Indoor",
+          "price": "$150.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/cherry-on-top-exotic-indoor-flower.png",
+          "gallery": [
+            "images/uploads/cherry-on-top-exotic-indoor-flower-closeup.png"
+          ],
+          "video": null,
+          "alt": "CHERRY ON TOP Exotic Indoor",
+          "description": "CHERRY ON TOP is an exotic indoor pick made for anyone after terpy candies, with a sweet candy-forward profile and bulk pricing through the Flower menu.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Exotic Indoor"
+            },
+            {
+              "label": "Strain",
+              "value": "CHERRY ON TOP"
+            },
+            {
+              "label": "Profile",
+              "value": "Terpy candies"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$150"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$260"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$460"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$760"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1360"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "cherry-pie-zkittles-boutique-indoor",
+          "title": "Cherry Pie Zkittles",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/cherry-pie-zkittles-boutique-indoor-1.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Cherry Pie Zkittles",
+          "description": "\"Cherry Pie Zkittles\" is a boutique indoor strain bred from Cherry Pie x Zkittles. This indica-leaning hybrid brings sweet cherry pastry flavor layered with fruity candy notes, dense frosty buds, and a relaxing, mood-lifting high.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Cross",
+              "value": "Cherry Pie x Zkittles"
+            },
+            {
+              "label": "Profile",
+              "value": "Sweet cherry pastry with fruity candy notes"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$290"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$500"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$800"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1,500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "crunchberries-x-dlish-exotic-indoor",
+          "title": "Crunchberries X Dlish",
+          "brand": "Exotic Indoor",
+          "price": "$150.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/crunchberries-x-dlish-exotic-indoor-1.png",
+          "gallery": [
+            "images/uploads/crunchberries-x-dlish-exotic-indoor-2.png"
+          ],
+          "video": null,
+          "alt": "Crunchberries X Dlish",
+          "description": "Crunchberries X Dlish is an exotic indoor cross of Crunchberries x D Lish. Expect a sweet berry cereal nose with creamy candy notes, frosty exotic buds, and an uplifting, well-rounded high.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Exotic Indoor"
+            },
+            {
+              "label": "Cross",
+              "value": "Crunchberries x D Lish"
+            },
+            {
+              "label": "Profile",
+              "value": "Sweet berry cereal with creamy candy notes"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$150"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$260"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$460"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$760"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1,360"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "sugar-cakes-exotic-indoor",
+          "title": "Sugar Cakes",
+          "brand": "Exotic Indoor",
+          "price": "$120.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/sugar-cakes-exotic-indoor-1.png",
+          "gallery": [
+            "images/uploads/sugar-cakes-exotic-indoor-2.png"
+          ],
+          "video": null,
+          "alt": "Sugar Cakes",
+          "description": "Sugar Cakes is an exotic indoor strain with a sweet creamy pastry aroma layered with rich vanilla notes. Dense, frosty buds deliver a smooth, relaxing high with an approachable price point and full bulk pricing through the flower menu.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Exotic Indoor"
+            },
+            {
+              "label": "Aroma",
+              "value": "Sweet creamy pastry and vanilla"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$120"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$220"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$380"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$600"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1,000"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "wedding-pie-wizard-tier",
+          "title": "Wedding Pie",
+          "brand": "Wizard Tier",
+          "price": "$110.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/wedding-pie-wizard-tier-1.png",
+          "gallery": [
+            "images/uploads/wedding-pie-wizard-tier-2.png"
+          ],
+          "video": null,
+          "alt": "Wedding Pie",
+          "description": "Wizard tier Wedding Pie is an 80/20 indica bred from Wedding Cake x Grape Pie. Potent and delicious.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Type",
+              "value": "80/20 Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "Wedding Cake x Grape Pie"
+            },
+            {
+              "label": "14g",
+              "value": "$110"
+            },
+            {
+              "label": "Oz",
+              "value": "$200"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "QP",
+              "value": "$550"
+            },
+            {
+              "label": "HP",
+              "value": "$875"
+            },
+            {
+              "label": "LB",
+              "value": "$1,600"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "gg4-wizard-tier",
+          "title": "GG 4",
+          "brand": "Wizard Tier",
+          "price": "$60.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/gg4-wizard-tier-1.png",
+          "gallery": [],
+          "video": null,
+          "alt": "GG 4",
+          "description": "Wizard tier GG 4 is an indica-dominant strain bred from Chem's Sister x Sour Dubb x Chocolate Diesel. Fire ass GG4.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Type",
+              "value": "Indica Dominant"
+            },
+            {
+              "label": "Cross",
+              "value": "Chem's Sister x Sour Dubb x Chocolate Diesel"
+            },
+            {
+              "label": "7g",
+              "value": "$60"
+            },
+            {
+              "label": "14g",
+              "value": "$110"
+            },
+            {
+              "label": "Oz",
+              "value": "$200"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "QP",
+              "value": "$550"
+            },
+            {
+              "label": "HP",
+              "value": "$875"
+            },
+            {
+              "label": "LB",
+              "value": "$1,600"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "madman-og-2-wizard-tier",
+          "title": "Madman OG 2",
+          "brand": "Wizard Tier",
+          "price": "$110.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/madman-og-2-wizard-tier-1.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Madman OG 2",
+          "description": "Wizard tier Madman OG 2 is a 60/40 indica bred from LA Confidential x OG Kush. We have the best OG's.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Type",
+              "value": "60/40 Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "LA Confidential x OG Kush"
+            },
+            {
+              "label": "14g",
+              "value": "$110"
+            },
+            {
+              "label": "Oz",
+              "value": "$200"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "QP",
+              "value": "$550"
+            },
+            {
+              "label": "HP",
+              "value": "$875"
+            },
+            {
+              "label": "LB",
+              "value": "$1,600"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "peach-cobbler-boutique-indoor",
+          "title": "Peach Cobbler",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/peach-cobbler-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/peach-cobbler-boutique-indoor-2.png",
+            "images/uploads/peach-cobbler-boutique-indoor-3.png"
+          ],
+          "video": null,
+          "alt": "Peach Cobbler",
+          "description": "Peach Cobbler is a boutique indoor strain bred from Peach Kush x Apricot Papaya. This 55% sativa / 45% indica hybrid delivers a sweet ripe peach aroma with warm pastry and vanilla notes, dense frosty buds, and a balanced uplifting high.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "55% Sativa / 45% Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "Peach Kush x Apricot Papaya"
+            },
+            {
+              "label": "Aroma",
+              "value": "Sweet ripe peach with warm pastry and vanilla"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$290"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$500"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$800"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1,500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "sunkist-boutique-indoor",
+          "title": "Sunkist",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/sunkist-boutique-indoor-1.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Sunkist",
+          "description": "Sunkist is a boutique indoor hybrid bred from Platinum Tangie x Agent Orange. It delivers a sweet citrus and banana aroma with uplifting, energetic effects.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "Hybrid"
+            },
+            {
+              "label": "Cross",
+              "value": "Platinum Tangie x Agent Orange"
+            },
+            {
+              "label": "Aroma",
+              "value": "Sweet citrus and banana"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$290"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$500"
+            },
+            {
+              "label": "8 Oz",
+              "value": "$800"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1,550"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "apple-mac-awesome-dope-indoor-flower-3-5g",
+          "title": "Cherry Zushimi",
+          "brand": "Traditional",
+          "price": "$120.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/cherry-zushimi-wizard-tier-2.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Cherry Zushimi",
+          "description": "\"Cherry Zushimi\" is a wizard tier strain grown by Traditional. This strain is one of their main starters in their lineup, meaning it has its own jar. \"Cherry Zushimi\" is an indica-dominant hybrid strain that comes from crossing Zkittles and OG. It has a sugary, sweet cherry and berry flavor with a touch of gassiness, while the aroma carries a gassy overtone accented by sugary cherries and fresh berries. The nugs are beautiful.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Grower",
+              "value": "Traditional"
+            },
+            {
+              "label": "Type",
+              "value": "Indica-dominant hybrid"
+            },
+            {
+              "label": "Cross",
+              "value": "Zkittles x OG"
+            },
+            {
+              "label": "Flavor",
+              "value": "Sweet cherry, berry, and gas"
+            },
+            {
+              "label": "Aroma",
+              "value": "Gassy cherries and fresh berries"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$120"
+            },
+            {
+              "label": "2 Units",
+              "value": "$210"
+            },
+            {
+              "label": "3 Units",
+              "value": "$300"
+            },
+            {
+              "label": "4 Units",
+              "value": "$380"
+            },
+            {
+              "label": "5 Units",
+              "value": "$470"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "appie-ting-blem-flower-3-5g",
+          "title": "Knockout OG",
+          "brand": "Wizard Tier",
+          "price": "$120.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/knockout-og-wizard-tier.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Knockout OG",
+          "description": "Wizard tier Knockout OG is an indica bred from Khalifa Kush x The Menthol. Available at 14g for $120 or an ounce for $225.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Type",
+              "value": "Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "Khalifa Kush x The Menthol"
+            },
+            {
+              "label": "14g",
+              "value": "$120"
+            },
+            {
+              "label": "Oz",
+              "value": "$225"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "baby-rattler-wood-wide-high-craft-indoor-flower-3-5g",
+          "title": "Super Sauce",
+          "brand": "Connoisseur Tier",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/super-sauce-connoisseur-tier.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Super Sauce",
+          "description": "Connoisseur tier Super Sauce is a hybrid bred from LCG x Nor Cal Runtz. Available at 14g for $130 or an ounce for $245.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Connoisseur"
+            },
+            {
+              "label": "Type",
+              "value": "Hybrid"
+            },
+            {
+              "label": "Cross",
+              "value": "LCG x Nor Cal Runtz"
+            },
+            {
+              "label": "14g",
+              "value": "$130"
+            },
+            {
+              "label": "Oz",
+              "value": "$245"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "cobblerz-flower-7g",
+          "title": "Nuclear Slurpee",
+          "brand": "Wizard Tier",
+          "price": "$120.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/nuclear-slurpee-wizard-tier.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Nuclear Slurpee",
+          "description": "Wizard tier Nuclear Slurpee is smokinggg and bred from Galactic Warheads x Kut Throat Kandy. Available at 14g for $120 or an ounce for $200.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Note",
+              "value": "This stuff is smokinggg"
+            },
+            {
+              "label": "Cross",
+              "value": "Galactic Warheads x Kut Throat Kandy"
+            },
+            {
+              "label": "14g",
+              "value": "$120"
+            },
+            {
+              "label": "Oz",
+              "value": "$200"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "fiyah-blem-flower-3-5g",
+          "title": "OG Kush",
+          "brand": "OG Cut",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/og-kush.png",
+          "gallery": [],
+          "video": "media/uploads/og-kush.mp4",
+          "alt": "OG Kush",
+          "description": "This is the real real OG Cut. Super loud, gassy, skunky OG goodness. This is perfection.",
+          "facts": [
+            {
+              "label": "Cut",
+              "value": "Real OG Cut"
+            },
+            {
+              "label": "Profile",
+              "value": "Super loud gas and skunk"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "golden-trio-goti-flower-3-5g",
+          "title": "Super Boof",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/super-boof-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/super-boof-wizard-tier.mp4",
+          "alt": "Super Boof",
+          "description": "Wizard tier Super Boof is a sativa-leaning hybrid that tastes amazing, with notes of citrus, grapefruit, and orange.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Type",
+              "value": "Sativa-leaning hybrid"
+            },
+            {
+              "label": "Notes",
+              "value": "Citrus, grapefruit, and orange"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "government-oasis-clubhouse-drops-flower-7g",
+          "title": "Pink Zushi",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/pink-zushi-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/pink-zushi-wizard-tier.mp4",
+          "alt": "Pink Zushi",
+          "description": "Wizard tier Pink Zushi brings sweet berry candy with tropical notes, a super impressive frosty look, and a perfectly squishy, scrumptious finish.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Profile",
+              "value": "Sweet berry candy and tropical notes"
+            },
+            {
+              "label": "Look",
+              "value": "Super impressive frost"
+            },
+            {
+              "label": "Texture",
+              "value": "Perfectly squishy"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "grape-ape-skunk-clubhouse-drops-flower-7g",
+          "title": "Blue Claw",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/blue-claw-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/blue-claw-wizard-tier.mp4",
+          "alt": "Blue Claw",
+          "description": "Wizard tier Blue Claw is another pheno of Purple Lobster, and if Purple Lobster was good, this one is even better.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Lineage Note",
+              "value": "Another pheno of Purple Lobster"
+            },
+            {
+              "label": "Quality",
+              "value": "Even better than Purple Lobster"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "graype-blem-flower-3-5g",
+          "title": "Rapper Weed",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/rapper-weed-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/rapper-weed-wizard-tier.mp4",
+          "alt": "Rapper Weed",
+          "description": "Wizard tier Rapper Weed is bred from RS11 x Lemon Cherry Gelato and tastes like moscato, raspberry sherbert, and garage fumes. Straight gasss.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Cross",
+              "value": "RS11 x Lemon Cherry Gelato"
+            },
+            {
+              "label": "Taste",
+              "value": "Moscato, raspberry sherbert, and garage fumes"
+            },
+            {
+              "label": "Note",
+              "value": "Straight gasss"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "grumpy-tiger-wood-wide-high-craft-indoor-flower-3-5g",
+          "title": "Jelly Donutz",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/jelly-donutz-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/jelly-donutz-wizard-tier.mp4",
+          "alt": "Jelly Donutz",
+          "description": "Wizard tier Jelly Donutz brings doughie, candy, sugar-coated goodness. It was grown by an award-winning licensed retail brand and renamed by yours truly.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Profile",
+              "value": "Doughie, candy, and sugar-coated goodness"
+            },
+            {
+              "label": "Grower",
+              "value": "Award-winning licensed retail brand"
+            },
+            {
+              "label": "Note",
+              "value": "Renamed by yours truly"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "ice-cream-pie-clubhouse-drops-flower-7g",
+          "title": "Fear of God",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/fear-of-god-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/fear-of-god-wizard-tier.mp4",
+          "alt": "Fear of God",
+          "description": "Wizard tier Fear of God is Fig OG, bred from Lemon Cherry Gelato x (Blue Face x Figment #8). The trimmers put FOG on the turkey bags, so it got renamed Fear of God. It hits like a fruity OG with a sweet, almost tropical front end and a well-defined base of pine, fresh lumber, and cleaner from the undeniable OG terps in its genetics. Very incredible nose to say the least.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Original Name",
+              "value": "Fig OG"
+            },
+            {
+              "label": "Cross",
+              "value": "Lemon Cherry Gelato x (Blue Face x Figment #8)"
+            },
+            {
+              "label": "Nickname",
+              "value": "FOG turned into Fear of God"
+            },
+            {
+              "label": "Profile",
+              "value": "Fruity OG with tropical sweetness, pine, fresh lumber, and cleaner"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "jelly-benz-clubhouse-drops-flower-7g",
+          "title": "Deep Blue Dream",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/deep-blue-dream-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/deep-blue-dream-wizard-tier.mp4",
+          "alt": "Deep Blue Dream",
+          "description": "Wizard tier Deep Blue Dream is Fig Farm's Lucid Blue, but to us it hits like a beautiful Blue Dream straight up. Fire sativa.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Original Name",
+              "value": "Fig Farm's Lucid Blue"
+            },
+            {
+              "label": "Style",
+              "value": "Beautiful Blue Dream straight up"
+            },
+            {
+              "label": "Type",
+              "value": "Fire sativa"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "lozer-flower-7g",
+          "title": "Tropic Thunder",
+          "brand": "Wizard Tier",
+          "price": "$195.00",
+          "compareAt": null,
+          "minimumLabel": "Oz minimum",
+          "cartPrice": "$195.00 / Oz minimum",
+          "image": "images/uploads/tropic-thunder-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/tropic-thunder-wizard-tier.mp4",
+          "alt": "Tropic Thunder",
+          "description": "Wizard tier Tropic Thunder is an Apples & Bananas x Jokerz cross that gives off tropic cherry, citrus candy, and gas greatness, bursting with a sparkle that embodies the magic of marijuana. Proprietary genetics plus craft equals greatness.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Cross",
+              "value": "Apples & Bananas x Jokerz"
+            },
+            {
+              "label": "Profile",
+              "value": "Tropic cherry, citrus candy, and gas"
+            },
+            {
+              "label": "Note",
+              "value": "Proprietary genetics + craft = greatness"
+            },
+            {
+              "label": "Minimum",
+              "value": "Oz"
+            },
+            {
+              "label": "Oz",
+              "value": "$195"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$360"
+            },
+            {
+              "label": "QP",
+              "value": "$600"
+            },
+            {
+              "label": "HP",
+              "value": "$1000"
+            },
+            {
+              "label": "LB",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "piecream-wood-wide-high-craft-indoor-flower-3-5g",
+          "title": "Bacio Gelato",
+          "brand": "Top Shelf Smalls",
+          "price": "$90.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/bacio-gelato-top-shelf-smalls.png",
+          "gallery": [],
+          "video": "media/uploads/bacio-gelato-top-shelf-smalls.mp4",
+          "alt": "Bacio Gelato",
+          "description": "Top Shelf Smalls Bacio Gelato is a nice hybrid with a creamy, sweet, gassy nose. These are always a killer value.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Top Shelf Smalls"
+            },
+            {
+              "label": "Type",
+              "value": "Hybrid"
+            },
+            {
+              "label": "Nose",
+              "value": "Creamy, sweet, and gassy"
+            },
+            {
+              "label": "Value",
+              "value": "Always a killer value"
+            },
+            {
+              "label": "Oz",
+              "value": "$90"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$160"
+            },
+            {
+              "label": "QP",
+              "value": "$250"
+            },
+            {
+              "label": "HP",
+              "value": "$350"
+            },
+            {
+              "label": "LB",
+              "value": "$500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "pink-runtz-awesome-dope-indoor-flower-3-5g",
+          "title": "Candy Shop",
+          "brand": "Top Shelf Smalls",
+          "price": "$90.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/candy-shop-top-shelf-smalls.png",
+          "gallery": [],
+          "video": "media/uploads/candy-shop-top-shelf-smalls.mp4",
+          "alt": "Candy Shop",
+          "description": "Top Shelf Smalls Candy Shop is a nice indica with a candy nose. These are always a killer value.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Top Shelf Smalls"
+            },
+            {
+              "label": "Type",
+              "value": "Indica"
+            },
+            {
+              "label": "Nose",
+              "value": "Candy"
+            },
+            {
+              "label": "Value",
+              "value": "Always a killer value"
+            },
+            {
+              "label": "Oz",
+              "value": "$90"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$160"
+            },
+            {
+              "label": "QP",
+              "value": "$250"
+            },
+            {
+              "label": "HP",
+              "value": "$350"
+            },
+            {
+              "label": "LB",
+              "value": "$500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "point-break-awesome-dope-indoor-flower-3-5g",
+          "title": "Zombie Kush",
+          "brand": "Mids",
+          "price": "$90.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/zombie-kush-mids-1.png",
+          "gallery": [
+            "images/uploads/zombie-kush-mids-2.png"
+          ],
+          "video": null,
+          "alt": "Zombie Kush",
+          "description": "\"Zombie Kush\" is a light dep grown indica created by crossing Alien Cookies with Khalifa Kush. It brings creative, happy, uplifting effects with a smooth orange flavor balanced by floral accents on a sweet, earthy finish.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Mids"
+            },
+            {
+              "label": "Grow",
+              "value": "Light dep"
+            },
+            {
+              "label": "Type",
+              "value": "Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "Alien Cookies x Khalifa Kush"
+            },
+            {
+              "label": "Flavor",
+              "value": "Smooth orange with floral accents and a sweet earthy finish"
+            },
+            {
+              "label": "Effects",
+              "value": "Creative, happy, and uplifting"
+            },
+            {
+              "label": "Relief",
+              "value": "Stress and depression"
+            },
+            {
+              "label": "Oz",
+              "value": "$90"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$160"
+            },
+            {
+              "label": "QP",
+              "value": "$230"
+            },
+            {
+              "label": "HP",
+              "value": "$390"
+            },
+            {
+              "label": "LB",
+              "value": "$570"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "rainbow-sherbert-clubhouse-drops-flower-7g",
+          "title": "Sour Toad",
+          "brand": "Top Shelf",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/sour-toad-top-shelf-1.png",
+          "gallery": [
+            "images/uploads/sour-toad-top-shelf-2.png",
+            "images/uploads/sour-toad-top-shelf-3.png"
+          ],
+          "video": null,
+          "alt": "Sour Toad",
+          "description": "\"Sour Toad\" is an indica-dominant hybrid created by crossing Sour OG with Girl Scout Cookies. It has a sour yet sweet cinnamon orange flavor with a light touch of diesel on the exhale, a spicy diesel aroma accented by sweet and sour orange with touches of cinnamon, and a heady euphoric high that hits with happiness.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Top Shelf"
+            },
+            {
+              "label": "Type",
+              "value": "Indica-dominant hybrid"
+            },
+            {
+              "label": "Cross",
+              "value": "Sour OG x Girl Scout Cookies"
+            },
+            {
+              "label": "Flavor",
+              "value": "Sour sweet cinnamon orange with light diesel"
+            },
+            {
+              "label": "Aroma",
+              "value": "Spicy diesel with sweet and sour orange"
+            },
+            {
+              "label": "Effects",
+              "value": "Heady, euphoric, and happy"
+            },
+            {
+              "label": "Oz",
+              "value": "$130"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$230"
+            },
+            {
+              "label": "QP",
+              "value": "$350"
+            },
+            {
+              "label": "HP",
+              "value": "$600"
+            },
+            {
+              "label": "LB",
+              "value": "$950"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "red-citron-preferred-gardens-indoor-flower-3-5g",
+          "title": "Jelly Runtz",
+          "brand": "Top Shelf",
+          "price": "$135.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/jelly-runtz-top-shelf-1.png",
+          "gallery": [
+            "images/uploads/jelly-runtz-top-shelf-2.png",
+            "images/uploads/jelly-runtz-top-shelf-3.png"
+          ],
+          "video": null,
+          "alt": "Jelly Runtz",
+          "description": "\"Jelly Runtz\" is a heavy indica created by crossing White Runtz with Hella Jelly. It leans into candy-heavy terps without being as stupefying as straight Runtz, bringing a heady euphoria with sugary notes on the inhale and floral, earthy accents behind it.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Top Shelf"
+            },
+            {
+              "label": "Type",
+              "value": "Heavy indica"
+            },
+            {
+              "label": "Cross",
+              "value": "White Runtz x Hella Jelly"
+            },
+            {
+              "label": "Terps",
+              "value": "Candy-forward with floral and earthy notes"
+            },
+            {
+              "label": "Effects",
+              "value": "Heady euphoria"
+            },
+            {
+              "label": "Oz",
+              "value": "$135"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$235"
+            },
+            {
+              "label": "QP",
+              "value": "$375"
+            },
+            {
+              "label": "HP",
+              "value": "$625"
+            },
+            {
+              "label": "LB",
+              "value": "$950"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "rs-z-flower-7g",
+          "title": "Candy's | The Force (7g)",
+          "brand": "Wizard Tier",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/candys-the-force-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/candys-the-force-wizard-tier.mp4",
+          "alt": "Candy's The Force 7g",
+          "description": "Wizard tier Candy's The Force is Lemon Up x Sherbanger #4, another incredible Candy's offering. TLDR: lemon funk with power.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Brand",
+              "value": "Candy's"
+            },
+            {
+              "label": "Size",
+              "value": "7g"
+            },
+            {
+              "label": "Cross",
+              "value": "Lemon Up x Sherbanger #4"
+            },
+            {
+              "label": "Profile",
+              "value": "Lemon funk with power"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$130"
+            },
+            {
+              "label": "2 Units",
+              "value": "$210"
+            },
+            {
+              "label": "3 Units",
+              "value": "$300"
+            },
+            {
+              "label": "4 Units",
+              "value": "$350"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "sherbanger-awesome-dope-indoor-flower-7g",
+          "title": "Candy's | Maple Zyrup (7g)",
+          "brand": "Wizard Tier",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/candys-maple-zyrup-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/candys-maple-zyrup-wizard-tier.mp4",
+          "alt": "Candy's Maple Zyrup 7g",
+          "description": "Wizard tier Candy's Maple Zyrup is OG x GSC x Z crossed back to Z three times. It brings mouth-staining syrup-sweet candy pine terps with power, another incredible Candy's banger. TLDR: multiple bracket winner in Proper Doinks.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Brand",
+              "value": "Candy's"
+            },
+            {
+              "label": "Size",
+              "value": "7g"
+            },
+            {
+              "label": "Cross",
+              "value": "OG x GSC x Z backcrossed to Z three times"
+            },
+            {
+              "label": "Profile",
+              "value": "Syrup-sweet candy pine terps with power"
+            },
+            {
+              "label": "Note",
+              "value": "Multiple bracket winner in Proper Doinks"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$130"
+            },
+            {
+              "label": "2 Units",
+              "value": "$210"
+            },
+            {
+              "label": "3 Units",
+              "value": "$300"
+            },
+            {
+              "label": "4 Units",
+              "value": "$350"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "strawberries-and-cream-awesome-dope-indoor-flower-3-5g",
+          "title": "Candy's | Clockwork Zorange (7g)",
+          "brand": "Wizard Tier",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/candys-clockwork-zorange-wizard-tier.png",
+          "gallery": [],
+          "video": "media/uploads/candys-clockwork-zorange-wizard-tier.mp4",
+          "alt": "Candy's Clockwork Zorange 7g",
+          "description": "Wizard tier Candy's Clockwork Zorange is a 7g jar bred from Bubblegum Runtz x Zamosa. It hits with Gelonade-on-crack energy and some of the strongest orange terps on the menu, grown by the current Zalympics overall champion grower from the same line as Zalympic best strain Zamosa. This batch is insane and likely Zalympics material.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Wizard"
+            },
+            {
+              "label": "Brand",
+              "value": "Candy's"
+            },
+            {
+              "label": "Size",
+              "value": "7g Jar"
+            },
+            {
+              "label": "Cross",
+              "value": "Bubblegum Runtz x Zamosa"
+            },
+            {
+              "label": "Profile",
+              "value": "Explosive orange terps with Gelonade-like power"
+            },
+            {
+              "label": "Grower",
+              "value": "Current Zalympics overall champion"
+            },
+            {
+              "label": "Note",
+              "value": "Bred from Zalympic best strain Zamosa"
+            },
+            {
+              "label": "Batch",
+              "value": "This batch is insane and likely Zalympics-bound"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$130"
+            },
+            {
+              "label": "2 Units",
+              "value": "$210"
+            },
+            {
+              "label": "3 Units",
+              "value": "$300"
+            },
+            {
+              "label": "4 Units",
+              "value": "$350"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "3bros-premium-flower-half-oz-jar",
+          "title": "3Bros Premium Flower Half Oz Jar",
+          "brand": "3Bros",
+          "price": "$120.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/3bros-premium-flower-half-oz-jar.png",
+          "gallery": [],
+          "video": null,
+          "alt": "3Bros Premium Flower Half Oz Jar",
+          "description": "Authentic 3Bros premium flower half ounce jar available in Frosted Trufflez, Sunset Sorbet, and Mandarin Zest. Pricing: 1 for $120, 2 for $210, 3 for $300, 4 for $380, and 5 for $470.",
+          "facts": [
+            {
+              "label": "Product",
+              "value": "Half oz jar"
+            },
+            {
+              "label": "Authentic",
+              "value": "Yes"
+            },
+            {
+              "label": "Weight",
+              "value": "14g"
+            },
+            {
+              "label": "Strains",
+              "value": "Frosted Trufflez, Sunset Sorbet, Mandarin Zest"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$120"
+            },
+            {
+              "label": "2 Units",
+              "value": "$210"
+            },
+            {
+              "label": "3 Units",
+              "value": "$300"
+            },
+            {
+              "label": "4 Units",
+              "value": "$380"
+            },
+            {
+              "label": "5 Units",
+              "value": "$470"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "white-cherries-boutique-indoor",
+          "title": "White Cherries",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/white-cherries-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/white-cherries-boutique-indoor-2.png",
+            "images/uploads/white-cherries-boutique-indoor-3.png"
+          ],
+          "video": null,
+          "alt": "White Cherries",
+          "description": "\"White Cherries\" is an indoor-grown indica created through crossing Ken's OG x Grand Daddy Purple. The buds carry an aroma of sweet and spicy berry with a taste of sweet berry tea and a hint of blueberry spice. Relaxing full-body effects take over, helping with pain and insomnia while lifting the mood once smoked.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "Ken's OG x Grand Daddy Purple"
+            },
+            {
+              "label": "Aroma",
+              "value": "Sweet and spicy berry"
+            },
+            {
+              "label": "Taste",
+              "value": "Sweet berry tea with blueberry spice"
+            },
+            {
+              "label": "Effects",
+              "value": "Relaxing body effects with mood lift"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "QP",
+              "value": "$490"
+            },
+            {
+              "label": "HP",
+              "value": "$800"
+            },
+            {
+              "label": "LB",
+              "value": "$1325"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "orange-fanta-boutique-indoor",
+          "title": "Orange Fanta",
+          "brand": "Boutique Indoor",
+          "price": "$155.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/orange-fanta-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/orange-fanta-boutique-indoor-2.png"
+          ],
+          "video": null,
+          "alt": "Orange Fanta",
+          "description": "\"Orange Fanta\" is an indoor-grown indica-dominant hybrid strain (70% indica / 30% sativa) created through crossing Runtz x Agent Orange. It has a sweet and sugary citrus orange candy flavor with hints of fresh bananas and sweet fruits. The aroma follows the same profile with a sour orange candy overtone accented by fresh fruits and sweet bananas. Orange Fanta leaves you relaxed and euphoric while still sociable and in a great mood.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "Indica-dominant hybrid"
+            },
+            {
+              "label": "Ratio",
+              "value": "70% indica / 30% sativa"
+            },
+            {
+              "label": "Cross",
+              "value": "Runtz x Agent Orange"
+            },
+            {
+              "label": "Flavor",
+              "value": "Sugary citrus orange candy, bananas, and sweet fruit"
+            },
+            {
+              "label": "Aroma",
+              "value": "Sour orange candy, fresh fruit, and sweet bananas"
+            },
+            {
+              "label": "Effects",
+              "value": "Relaxed, euphoric, sociable, and upbeat"
+            },
+            {
+              "label": "Oz",
+              "value": "$155"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$290"
+            },
+            {
+              "label": "QP",
+              "value": "$450"
+            },
+            {
+              "label": "HP",
+              "value": "$725"
+            },
+            {
+              "label": "LB",
+              "value": "$1275"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "lucky-charms-boutique-indoor",
+          "title": "Lucky Charms",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/lucky-charms-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/lucky-charms-boutique-indoor-2.png",
+            "images/uploads/lucky-charms-boutique-indoor-3.png"
+          ],
+          "video": null,
+          "alt": "Lucky Charms",
+          "description": "\"Lucky Charms\" is an indoor-grown hybrid strain made from The White x Appalachia. Much like its namesake, it has a super sweet and sugary fruity berry flavor with a lightly sour citrusy exhale. The aroma follows with a fruity cherry berry overtone accented by hints of sour citrus and earthy fruits.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "Hybrid"
+            },
+            {
+              "label": "Ratio",
+              "value": "50% indica / 50% sativa"
+            },
+            {
+              "label": "Cross",
+              "value": "The White x Appalachia"
+            },
+            {
+              "label": "Flavor",
+              "value": "Sugary fruity berry with a lightly sour citrus exhale"
+            },
+            {
+              "label": "Aroma",
+              "value": "Cherry berry, sour citrus, and earthy fruit"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "QP",
+              "value": "$490"
+            },
+            {
+              "label": "HP",
+              "value": "$800"
+            },
+            {
+              "label": "LB",
+              "value": "$1325"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "killer-og-boutique-indoor",
+          "title": "Killer OG",
+          "brand": "Boutique Indoor",
+          "price": "$155.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/killer-og-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/killer-og-boutique-indoor-2.png"
+          ],
+          "video": null,
+          "alt": "Killer OG",
+          "description": "\"Killer OG\" is an indoor-grown indica-dominant hybrid strain (70% indica / 30% sativa) created through crossing White Fire OG x King Kush. It has a sweet and sour citrusy flavor with a gassy OG-like exhale. The aroma is gassy and herbal with a sweet citrus overtone that intensifies as you continue to smoke. The high fills your brain with happy euphoria while your body settles into a buzzy, fully relaxed state.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "Indica-dominant hybrid"
+            },
+            {
+              "label": "Ratio",
+              "value": "70% indica / 30% sativa"
+            },
+            {
+              "label": "Cross",
+              "value": "White Fire OG x King Kush"
+            },
+            {
+              "label": "Flavor",
+              "value": "Sweet, sour citrus, and gassy OG exhale"
+            },
+            {
+              "label": "Aroma",
+              "value": "Gassy, herbal, and sweet citrus"
+            },
+            {
+              "label": "Effects",
+              "value": "Happy euphoria with buzzy full-body relaxation"
+            },
+            {
+              "label": "Oz",
+              "value": "$155"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$290"
+            },
+            {
+              "label": "QP",
+              "value": "$450"
+            },
+            {
+              "label": "HP",
+              "value": "$725"
+            },
+            {
+              "label": "LB",
+              "value": "$1275"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "green-gumbo-boutique-indoor",
+          "title": "Green Gumbo",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/green-gumbo-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/green-gumbo-boutique-indoor-2.png",
+            "images/uploads/green-gumbo-boutique-indoor-3.png"
+          ],
+          "video": null,
+          "alt": "Green Gumbo",
+          "description": "\"Green Gumbo\" is an indoor-grown indica made by crossing Gumbo with an unknown strain. It is named for its signature bubblegum flavor while also carrying sour, gassy undertones. This strain produces relaxing indica effects and features a piney aroma with a smooth diesel-like finish. It has a reputation for making you want to kick back and watch a movie without necessarily knocking you out.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "Indica"
+            },
+            {
+              "label": "Cross",
+              "value": "Gumbo x unknown strain"
+            },
+            {
+              "label": "Flavor",
+              "value": "Bubblegum with sour gassy undertones"
+            },
+            {
+              "label": "Aroma",
+              "value": "Piney with a smooth diesel-like finish"
+            },
+            {
+              "label": "Effects",
+              "value": "Relaxed, kicked-back, and movie-ready"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "QP",
+              "value": "$490"
+            },
+            {
+              "label": "HP",
+              "value": "$800"
+            },
+            {
+              "label": "LB",
+              "value": "$1325"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "cheesecake-boutique-indoor",
+          "title": "CheeseCake",
+          "brand": "Boutique Indoor",
+          "price": "$165.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/cheesecake-boutique-indoor-1.png",
+          "gallery": [
+            "images/uploads/cheesecake-boutique-indoor-2.png",
+            "images/uploads/cheesecake-boutique-indoor-3.png"
+          ],
+          "video": null,
+          "alt": "CheeseCake",
+          "description": "\"CheeseCake\" is an indoor-grown true hybrid strain created through crossing Confidential Cheese x Cake Badder. This powerhouse combination resulted in a strain that is cheesy, earthy, and extremely sweet. CheeseCake produces sleepy effects that leave you relaxed and ready for a long night of sleep.",
+          "facts": [
+            {
+              "label": "Style",
+              "value": "Boutique indoor"
+            },
+            {
+              "label": "Type",
+              "value": "True hybrid"
+            },
+            {
+              "label": "Ratio",
+              "value": "50% indica / 50% sativa"
+            },
+            {
+              "label": "Cross",
+              "value": "Confidential Cheese x Cake Badder"
+            },
+            {
+              "label": "Profile",
+              "value": "Cheesy, earthy, and extremely sweet"
+            },
+            {
+              "label": "Effects",
+              "value": "Relaxed, sleepy, and ready for bed"
+            },
+            {
+              "label": "Oz",
+              "value": "$165"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "QP",
+              "value": "$490"
+            },
+            {
+              "label": "HP",
+              "value": "$800"
+            },
+            {
+              "label": "LB",
+              "value": "$1325"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "starburst-top-shelf",
+          "title": "Starburst",
+          "brand": "Top Shelf",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/starburst-top-shelf-1.png",
+          "gallery": [
+            "images/uploads/starburst-top-shelf-2.png",
+            "images/uploads/starburst-top-shelf-3.png"
+          ],
+          "video": null,
+          "alt": "Starburst",
+          "description": "\"Starburst\" is a sativa-dominant hybrid created by crossing Pre-98 Bubba Kush with Fire OG. It carries a fruity, sweet, gassy, tropical scent, tastes like strawberry, tree fruit, and peach, and brings an upbeat buzzy high that feels happy and a bit giggly.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Top Shelf"
+            },
+            {
+              "label": "Type",
+              "value": "Sativa-dominant hybrid"
+            },
+            {
+              "label": "Cross",
+              "value": "Pre-98 Bubba Kush x Fire OG"
+            },
+            {
+              "label": "Scent",
+              "value": "Fruity, sweet, gassy, and tropical"
+            },
+            {
+              "label": "Taste",
+              "value": "Strawberry, tree fruit, and peach"
+            },
+            {
+              "label": "Effects",
+              "value": "Upbeat, buzzy, happy, and a bit giggly"
+            },
+            {
+              "label": "Oz",
+              "value": "$130"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$230"
+            },
+            {
+              "label": "QP",
+              "value": "$350"
+            },
+            {
+              "label": "HP",
+              "value": "$600"
+            },
+            {
+              "label": "LB",
+              "value": "$950"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "confetti-cake-top-shelf",
+          "title": "Confetti Cake",
+          "brand": "Top Shelf",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/confetti-cake-top-shelf-1.png",
+          "gallery": [
+            "images/uploads/confetti-cake-top-shelf-2.png",
+            "images/uploads/confetti-cake-top-shelf-3.png"
+          ],
+          "video": null,
+          "alt": "Confetti Cake",
+          "description": "\"Confetti Cake\" is an indica-dominant hybrid created by crossing Frozen Milk with Birthday Cake. It packs a super sweet nutty vanilla flavor with hints of creamy, cakey gas, and the nug structure is fluffy, light, and fresh.",
+          "facts": [
+            {
+              "label": "Tier",
+              "value": "Top Shelf"
+            },
+            {
+              "label": "Type",
+              "value": "Indica-dominant hybrid"
+            },
+            {
+              "label": "Cross",
+              "value": "Frozen Milk x Birthday Cake"
+            },
+            {
+              "label": "Flavor",
+              "value": "Sweet nutty vanilla with creamy cakey gas"
+            },
+            {
+              "label": "Structure",
+              "value": "Fluffy, light, and fresh"
+            },
+            {
+              "label": "Oz",
+              "value": "$130"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$230"
+            },
+            {
+              "label": "QP",
+              "value": "$350"
+            },
+            {
+              "label": "HP",
+              "value": "$600"
+            },
+            {
+              "label": "LB",
+              "value": "$950"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concentrates",
+      "label": "Concentrates",
+      "page": "concentrates.html",
+      "products": [
+        {
+          "status": "active",
+          "slug": "amarelo-mountain-man-melts-cold-cured-live-resin-2g",
+          "title": "1G ABX Badder",
+          "brand": "ABX",
+          "price": "$50.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/abx-badder-1g-authentic.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G ABX Badder",
+          "description": "Authentic 1 gram ABX badder with a deep strain bench including GMO OG, Permanent Haze, Bacio Pancakes, Key Lime Kush, Future Haze, Papaya Gold, Papaya Juice, Papaya Spritzer, Lemon Bow, Zu Tang, Zour Zohan, Orange Z, Blue Skunkberry, HB Donutz, Jelly Papaya, Peach Ztarfruit, Yellow Ztarfruit, and Peach Dreams. Bulk pricing available through Telegram.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Badder"
+            },
+            {
+              "label": "Brand",
+              "value": "Authentic"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Strains 1",
+              "value": "GMO OG, Permanent Haze, Bacio Pancakes, Key Lime Kush, Future Haze, Papaya Gold"
+            },
+            {
+              "label": "Strains 2",
+              "value": "Papaya Juice, Papaya Spritzer, Lemon Bow, Zu Tang, Zour Zohan, Orange Z"
+            },
+            {
+              "label": "Strains 3",
+              "value": "Blue Skunkberry, HB Donutz, Jelly Papaya, Peach Ztarfruit, Yellow Ztarfruit, Peach Dreams"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$50"
+            },
+            {
+              "label": "2 Units",
+              "value": "$90"
+            },
+            {
+              "label": "3 Units",
+              "value": "$115"
+            },
+            {
+              "label": "5 Units",
+              "value": "$140"
+            },
+            {
+              "label": "10 Units",
+              "value": "$250"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "banana-punch-4-strawberry-guava-9-persy-thumbprint-2g",
+          "title": "1G Barrett Farms Fresh Frozen Live Rosin",
+          "brand": "Barrett Farms",
+          "price": "$80.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/barrett-farms-fresh-frozen-live-rosin-1g-authentic.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G Barrett Farms Fresh Frozen Live Rosin",
+          "description": "Authentic 1 gram Barrett Farms fresh frozen live rosin inspired by the beauty of Humboldt County and the unconditional love of their loyal companion, Barrett. Feel free to request strains, but strain selections may swap if certain options are out of stock.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Fresh frozen live rosin"
+            },
+            {
+              "label": "Brand",
+              "value": "Authentic"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Strains",
+              "value": "Skynet, Superboof, Amarelo, Champaya, Dulce de Uva, Spritzer, GMOZK"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Requested strains may swap if out of stock"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$80"
+            },
+            {
+              "label": "2 Units",
+              "value": "$140"
+            },
+            {
+              "label": "3 Units",
+              "value": "$190"
+            },
+            {
+              "label": "5 Units",
+              "value": "$285"
+            },
+            {
+              "label": "10 Units",
+              "value": "$495"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "blackwater-og-nasha-extracts-green-unpressed-hash-1-2g",
+          "title": "1G In House Live Rosin Tier 1",
+          "brand": "In House",
+          "price": "$55.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/in-house-live-rosin-tier-1-1g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G In House Live Rosin Tier 1",
+          "description": "This is some pressure. Try out In House Tier 1 live rosin and you will not be disappointed. Strain options currently include LCG and Sherbert with deep bulk pricing available through Telegram.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Live rosin Tier 1"
+            },
+            {
+              "label": "Brand",
+              "value": "In House"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Strains",
+              "value": "LCG, Sherbert"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$55"
+            },
+            {
+              "label": "2 Units",
+              "value": "$100"
+            },
+            {
+              "label": "3 Units",
+              "value": "$140"
+            },
+            {
+              "label": "4 Units",
+              "value": "$180"
+            },
+            {
+              "label": "5 Units",
+              "value": "$205"
+            },
+            {
+              "label": "10 Units",
+              "value": "$350"
+            },
+            {
+              "label": "25 Units",
+              "value": "$725"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1250"
+            },
+            {
+              "label": "100 Units",
+              "value": "$2320"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "blue-zina-punch-live-rosin-badder-tier-3-1g",
+          "title": "DAB White Label | 1oz Badder",
+          "brand": "DAB White Label",
+          "price": "$145.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/dab-white-label-logo.png",
+          "gallery": [
+            "images/concentrates/dab-white-label-1oz-badder.png"
+          ],
+          "video": null,
+          "alt": "DAB White Label 1oz Badder",
+          "description": "In my professional opinion there has not been a more consistent badder brand in the past 2 years than DAB. No other cheap badder in baller jars with a master box has matched DAB's consistency. Besides the superior product, the design, concept, and aesthetic is flyer than the competition by a long shot. Feel encouraged to share your preferred strains. We are able to accommodate desires most of the time, but please be prepared for replacements and variety.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Badder"
+            },
+            {
+              "label": "Size",
+              "value": "1oz"
+            },
+            {
+              "label": "Brand",
+              "value": "White Label"
+            },
+            {
+              "label": "Strains 1",
+              "value": "Prism, Huckleberry, Pineapple Frost, Lightspeed, Terpenstein, Mass Driver, UFO"
+            },
+            {
+              "label": "Strains 2",
+              "value": "Alien OG, Sugar Bear, Animal Cookies, Gas Giant, Mars OG, Space Kush, Brainwash"
+            },
+            {
+              "label": "Strains 3",
+              "value": "OZ Kush, Wormhole, Blueberry Muffin, Purple Panties, Romulan, White Rhino, Sour Spyder"
+            },
+            {
+              "label": "Strains 4",
+              "value": "Chemdawg, Creme Brulee, Bruce Banner, Grape Moscato, Platinum OG, Black Lime"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can often be accommodated, but replacements may happen"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$145"
+            },
+            {
+              "label": "2 Units",
+              "value": "$245"
+            },
+            {
+              "label": "4 Units",
+              "value": "$425"
+            },
+            {
+              "label": "8 Units",
+              "value": "$695"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1075"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "blueberry-muffin-nasha-extracts-green-unpressed-hash-1-2g",
+          "title": "DAB White Label | 1oz Crumble",
+          "brand": "DAB White Label",
+          "price": "$145.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/dab-white-label-1oz-crumble.png",
+          "gallery": [
+            "images/concentrates/dab-white-label-logo.png"
+          ],
+          "video": null,
+          "alt": "DAB White Label 1oz Crumble",
+          "description": "The best BHO extractors see their work as artisanal craft and DAB is an autismanal product. High quality inputs and material meet care and excellence with every batch. Feel encouraged to share your preferred strains. We are able to accommodate desires most of the time, but please be prepared for replacements and variety.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Crumble"
+            },
+            {
+              "label": "Size",
+              "value": "1oz"
+            },
+            {
+              "label": "Brand",
+              "value": "White Label"
+            },
+            {
+              "label": "Strains",
+              "value": "Mamba Haze, Bangers & Mash, Zeclair, Lemon OG, Glitter Bomb"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can often be accommodated, but replacements may happen"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$145"
+            },
+            {
+              "label": "2 Units",
+              "value": "$245"
+            },
+            {
+              "label": "4 Units",
+              "value": "$425"
+            },
+            {
+              "label": "8 Units",
+              "value": "$695"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1075"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "butterscotch-frostee-the-bryantist-live-rosin-badder-2g",
+          "title": "DAB | Sugar",
+          "brand": "DAB",
+          "price": "$145.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/dab-sugar.png",
+          "gallery": [
+            "images/concentrates/dab-white-label-logo.png"
+          ],
+          "video": null,
+          "alt": "DAB Sugar",
+          "description": "Some is more saucie than others, and some is a lil separated in the video due to 1lb jars. We will mix them as we make ounces. You can see the overall quality though, top notch. These are slightly a step above in quality from the rest of the DAB line up and still insane for the price. Feel encouraged to share your preferred strains. We are able to accommodate desires 90% of the time, but please be prepared for simple replacements.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Sugar"
+            },
+            {
+              "label": "Brand",
+              "value": "DAB"
+            },
+            {
+              "label": "Quality",
+              "value": "Slightly above the rest of the DAB line"
+            },
+            {
+              "label": "Jar Note",
+              "value": "Some jars are more saucy or a little separated in 1 lb jars"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can be accommodated about 90% of the time"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$145"
+            },
+            {
+              "label": "2 Units",
+              "value": "$245"
+            },
+            {
+              "label": "4 Units",
+              "value": "$425"
+            },
+            {
+              "label": "8 Units",
+              "value": "$695"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1075"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "champaya-mountain-man-melts-cold-cured-live-resin-2g",
+          "title": "DAB White Label | 1oz Sauce",
+          "brand": "DAB White Label",
+          "price": "$145.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/dab-white-label-sauce-label.png",
+          "gallery": [
+            "images/concentrates/dab-white-label-1oz-sauce.png"
+          ],
+          "video": null,
+          "alt": "DAB White Label 1oz Sauce",
+          "description": "Basically wet crumble. Not so granular and dry that it's considered sugar, but also a lil chunky and saucy. Premium per usual. Feel encouraged to share your preferred strains. We are able to accommodate desires most of the time, but please be prepared for replacements and variety.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Sauce"
+            },
+            {
+              "label": "Texture",
+              "value": "Basically wet crumble"
+            },
+            {
+              "label": "Size",
+              "value": "1oz"
+            },
+            {
+              "label": "Brand",
+              "value": "White Label"
+            },
+            {
+              "label": "Strains 1",
+              "value": "Zebraz, Sauce Boss, Peach Z, Cash Stash, Cruel Summer"
+            },
+            {
+              "label": "Strains 2",
+              "value": "Jelly Belly, Honey Badger, Crimson Kush, Purple Punch, Hawaiian OG"
+            },
+            {
+              "label": "Strains 3",
+              "value": "White Runtz, Lemon Haze, Ecto Cooler, Headband, Afghani Pie"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can often be accommodated, but replacements may happen"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$145"
+            },
+            {
+              "label": "2 Units",
+              "value": "$245"
+            },
+            {
+              "label": "4 Units",
+              "value": "$425"
+            },
+            {
+              "label": "8 Units",
+              "value": "$695"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$1075"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "creme-de-luna-nasha-extracts-green-unpressed-hash-1-2g",
+          "title": "Roswell | 1oz Full Spectrum Hash Rosin",
+          "brand": "Roswell",
+          "price": "$475.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/roswell-1oz-hash-rosin-promo.png",
+          "gallery": [
+            "images/concentrates/roswell-1oz-full-spectrum-hash-rosin.png"
+          ],
+          "video": null,
+          "alt": "Roswell 1oz Full Spectrum Hash Rosin",
+          "description": "Roswell brand is a full spectrum hash rosin offering. With unbeatable value, it sits as a fire budget option. Feel encouraged to share your preferred strains in the order notes. We are able to accommodate desires 90% of the time, but please be prepared for simple replacements. All strains are fire, though.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Full Spectrum Hash Rosin"
+            },
+            {
+              "label": "Size",
+              "value": "1oz"
+            },
+            {
+              "label": "Brand",
+              "value": "Roswell"
+            },
+            {
+              "label": "Strains 1",
+              "value": "Citrus Cooker, Hash Burger, Lime OG, Rainbow Belts"
+            },
+            {
+              "label": "Strains 2",
+              "value": "Banana Cream Pie, Garlic Juice, Lemon Heads, Government Oasis"
+            },
+            {
+              "label": "Strains 3",
+              "value": "Garlic Limes, Frozen Banana, Grease Monkey, Rainbow Cake"
+            },
+            {
+              "label": "Strains 4",
+              "value": "Lemon Cake, Tahoe OG, Tropic Thunder, Rainbow Guava"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can be accommodated about 90% of the time"
+            },
+            {
+              "label": "OZ",
+              "value": "$475"
+            },
+            {
+              "label": "2 OZ",
+              "value": "$825"
+            },
+            {
+              "label": "QP",
+              "value": "$1550"
+            },
+            {
+              "label": "HP",
+              "value": "$2650"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "creme-de-luna-nasha-extracts-red-pressed-hash-1-2g",
+          "title": "Gucci Gear | 2g 70-120u Hash Rosin",
+          "brand": "Gucci Gear",
+          "price": "$110.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/gucci-gear-2g-70-120u-hash-rosin.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Gucci Gear 2g 70-120u Hash Rosin",
+          "description": "Single-source, living soil, cold-cured live hash rosin at an unbeatable price. Crafted by award winning hash makers, Gucci Gear is for the connoisseur. Feel encouraged to share your preferred strains in the order notes. We are able to accommodate desires 90% of the time, but please be prepared for simple replacements.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "70-120u Hash Rosin"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Brand",
+              "value": "Gucci Gear"
+            },
+            {
+              "label": "Strains 1",
+              "value": "Papa Burger, Garlotti, Collins Ave, Passion Fruit, Candy Cane"
+            },
+            {
+              "label": "Strains 2",
+              "value": "Pink Aruba, Baja Blast, Banana Hammock, Trop Shop, Grape Gas"
+            },
+            {
+              "label": "Strains 3",
+              "value": "Papaya, Cherry Zkittlez, Lemon Berry, Nam Wah, Spritzer"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can be accommodated about 90% of the time"
+            },
+            {
+              "label": "1",
+              "value": "$110"
+            },
+            {
+              "label": "2",
+              "value": "$180"
+            },
+            {
+              "label": "3",
+              "value": "$240"
+            },
+            {
+              "label": "7 (14g)",
+              "value": "$475"
+            },
+            {
+              "label": "14 (28g)",
+              "value": "$865"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "diamond-hash-nasha-extracts-topper-thc-a-diamonds-cold-water-hashish-1g",
+          "title": "Dubble Bubble | 10g Pressed Bubble Hash",
+          "brand": "Dubble Bubble",
+          "price": "$130.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/dubble-bubble-10g-pressed-bubble-hash.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Dubble Bubble 10g Pressed Bubble Hash",
+          "description": "Experience the rich tradition of Moroccan hash with our latest offering, Moroccan Pressed Bubble Hash. Popularly used to accompany flower and tobacco in joints, giving a smooth and mellow high. 10g per pack. Feel encouraged to share your preferred strains in the order notes. We are able to accommodate desires 90% of the time, but please be prepared for simple replacements. Four strains per lb maximum.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Pressed Bubble Hash"
+            },
+            {
+              "label": "Style",
+              "value": "Moroccan style"
+            },
+            {
+              "label": "Size",
+              "value": "10g per pack"
+            },
+            {
+              "label": "Brand",
+              "value": "Dubble Bubble"
+            },
+            {
+              "label": "Strains",
+              "value": "Grape Gas, Amnesia Haze, Cherry Guzzler, Zakura"
+            },
+            {
+              "label": "Stock Note",
+              "value": "Preferred strains can be accommodated about 90% of the time"
+            },
+            {
+              "label": "Limit",
+              "value": "4 strains per lb maximum"
+            },
+            {
+              "label": "1 Pack",
+              "value": "$130"
+            },
+            {
+              "label": "5 Pack",
+              "value": "$500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "do-lato-10-cereal-star-5-persy-thumbprint-2g",
+          "title": "Slab Labs | 10g Static Sift",
+          "brand": "Slab Labs",
+          "price": "Contact on TG for price",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/concentrates/slab-labs-10g-static-sift.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Slab Labs 10g Static Sift",
+          "description": "Static Sift is the latest in solventless concentrates that Europe and the UK is going crazy for. Produced using advanced static sifting techniques, it isolates premium trichome heads while preserving the plant's natural terpene profile. After going through many samples and batches before adding anything to the menu, this stood out. These are produced by a single source organic farm in Humboldt from a true aficionado. The nose and quality rival brands that cost twice as much.",
+          "facts": [
+            {
+              "label": "Type",
+              "value": "Static Sift"
+            },
+            {
+              "label": "Size",
+              "value": "10g"
+            },
+            {
+              "label": "Brand",
+              "value": "Slab Labs"
+            },
+            {
+              "label": "Production",
+              "value": "Single source organic farm in Humboldt"
+            },
+            {
+              "label": "Strains 1",
+              "value": "Nam Wah, Garlic Juice, Tropaya, Dark Rainbow, Banana Punch"
+            },
+            {
+              "label": "Strains 2",
+              "value": "Sour Strawberry, Honey Banana, Wakanda, Grape Gas, Trop Cherry"
+            },
+            {
+              "label": "Pricing",
+              "value": "Contact on TG for price"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edibles",
+      "label": "Edibles & Prerolls",
+      "page": "edibles.html",
+      "products": [
+        {
+          "status": "active",
+          "slug": "jefferey-single-infused-joint",
+          "title": "Jefferey Single Infused Joint",
+          "brand": "West Coast Cure",
+          "price": "$50.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/jefferey-single-infused-joint.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Jefferey Single Infused Joint by West Coast Cure",
+          "description": "Jefferey single infused joints by West Coast Cure, shown with 1.2g single pack joints and rotating strain options. Each joint is infused with diamonds and priced with simple quantity tiers.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Single infused joint"
+            },
+            {
+              "label": "Line",
+              "value": "Jefferey"
+            },
+            {
+              "label": "Brand",
+              "value": "West Coast Cure"
+            },
+            {
+              "label": "Infusion",
+              "value": "Diamonds"
+            },
+            {
+              "label": "Size",
+              "value": "1.2g joint"
+            },
+            {
+              "label": "Options",
+              "value": "Red Delicious, OG Kush, Blue Dream, Lemon Burst, Frozen Cherries, and rotating single-pack options"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$50"
+            },
+            {
+              "label": "2 Units",
+              "value": "$95"
+            },
+            {
+              "label": "3 Units",
+              "value": "$135"
+            },
+            {
+              "label": "4 Units",
+              "value": "$175"
+            },
+            {
+              "label": "5 Units",
+              "value": "$210"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "710-labs-hash-rosin-gummy-authentic",
+          "title": "710 LABS HASH ROSIN GUMMY Authentic",
+          "brand": "710 Labs",
+          "price": "$60.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/710-labs-hash-rosin-gummy-authentic.png",
+          "gallery": [],
+          "video": null,
+          "alt": "710 Labs Hash Rosin Gummy Authentic",
+          "description": "Authentic 710 Labs cannabis-infused hash rosin gummies. Full spectrum handmade rosin gummies with a clean white pouch look and simple tier pricing.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Hash rosin gummy"
+            },
+            {
+              "label": "Brand",
+              "value": "710 Labs"
+            },
+            {
+              "label": "Type",
+              "value": "Cannabis-infused full spectrum rosin gummy"
+            },
+            {
+              "label": "Pack",
+              "value": "10 gummies per pack"
+            },
+            {
+              "label": "Dose",
+              "value": "10mg THC and 10mg CBD per piece"
+            },
+            {
+              "label": "Pack Total",
+              "value": "100mg THC and 100mg CBD per pack"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$60"
+            },
+            {
+              "label": "2 Units",
+              "value": "$115"
+            },
+            {
+              "label": "3 Units",
+              "value": "$155"
+            },
+            {
+              "label": "4 Units",
+              "value": "$200"
+            },
+            {
+              "label": "5 Units",
+              "value": "$245"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "haze-main-thc-chocolate",
+          "title": "Haze & Main THC Chocolate",
+          "brand": "Haze & Main",
+          "price": "$30.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/haze-main-thc-chocolate.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Haze & Main THC Chocolate 100mg cake batter bar",
+          "description": "Haze & Main THC Chocolate is a cannabis-infused 100mg chocolate bar with a cake batter profile and colorful speckled pieces. Simple quantity tiers make it easy to add one bar or build a larger order.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "THC chocolate bar"
+            },
+            {
+              "label": "Brand",
+              "value": "Haze & Main"
+            },
+            {
+              "label": "Flavor",
+              "value": "Cake Batter"
+            },
+            {
+              "label": "Strength",
+              "value": "100mg THC per bar"
+            },
+            {
+              "label": "Type",
+              "value": "Cannabis-infused chocolate"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$30"
+            },
+            {
+              "label": "2 Units",
+              "value": "$50"
+            },
+            {
+              "label": "3 Units",
+              "value": "$65"
+            },
+            {
+              "label": "4 Units",
+              "value": "$80"
+            },
+            {
+              "label": "5 Units",
+              "value": "$90"
+            },
+            {
+              "label": "10 Units",
+              "value": "$120"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "blueberry-x-blue-dream-10pk-100mg-live-resin-chews-100mg",
+          "title": "Rolexotics | Daytona Mini Hash Hole Joint : MIX N' MATCH",
+          "brand": "Rolexotics",
+          "price": "$50.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/rolexotics-daytona-mini-hash-hole-joint-mix-n-match.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Rolexotics Daytona Mini Hash Hole Joint",
+          "description": "Behold the mini version of Rolexotic's Hash Hole edition, Daytona. Rolled exclusively with Elements paper and featuring an exquisite glass bullet tip, inside you will find premium exotic flower paired with top tier 70-120u Gucci Gear cold cure hash rosin. Hand rolled, artisan crafted, and pairings curated by Boom. Experience luxury, Rolexotics!",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Mini hash hole joint"
+            },
+            {
+              "label": "Flower",
+              "value": "1.3g"
+            },
+            {
+              "label": "Rosin",
+              "value": "0.3g Gucci Gear cold cure hash rosin"
+            },
+            {
+              "label": "Paper",
+              "value": "Elements"
+            },
+            {
+              "label": "Tip",
+              "value": "Glass bullet tip"
+            },
+            {
+              "label": "Mix N Match",
+              "value": "Orange Drip x Citrus Tsunami; Lemon Drip x Honey Runtz; Lemosa x Purple Ice Water"
+            },
+            {
+              "label": "Minimum",
+              "value": "Order of two"
+            },
+            {
+              "label": "2 Units",
+              "value": "$100"
+            },
+            {
+              "label": "3 Units",
+              "value": "$145"
+            },
+            {
+              "label": "4 Units",
+              "value": "$185"
+            },
+            {
+              "label": "5 Units",
+              "value": "$205"
+            },
+            {
+              "label": "10 Units",
+              "value": "$340"
+            },
+            {
+              "label": "20 Units",
+              "value": "$600"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1200"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "cherry-lime-x-gmo-10pk-100mg-live-resin-chews-100mg",
+          "title": "2G Exotic Pre Rolls",
+          "brand": "Exotic Pre Rolls",
+          "price": "$10.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/2g-exotic-pre-rolls.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Exotic Pre Rolls",
+          "description": "Feel free to request strains in the order notes, but we may swap out if we run out of stock because these go fast.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "2g exotic pre-roll"
+            },
+            {
+              "label": "Strains",
+              "value": "Grape Gas, Perm Marker, RS-11, Apples & Bananas, Jealousy, Wasabi Lemonade, Los Wookies, Apple Scotti, Alien Tech, Pixelz, Moon Beams, Blue Slushie, Saturn OG, Orions Belt, Magic Melon, Gummies"
+            },
+            {
+              "label": "Minimum",
+              "value": "Order of 5"
+            },
+            {
+              "label": "5 Units",
+              "value": "$50"
+            },
+            {
+              "label": "10 Units",
+              "value": "$80"
+            },
+            {
+              "label": "25 Units",
+              "value": "$150"
+            },
+            {
+              "label": "50 Units",
+              "value": "$250"
+            },
+            {
+              "label": "100 Units",
+              "value": "$400"
+            },
+            {
+              "label": "250 Units",
+              "value": "$800"
+            },
+            {
+              "label": "500 Units",
+              "value": "$1300"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "chocolate-chip-dr-norms-mini-cookies-100mg",
+          "title": "BITEZ | 100MG THC INFUSED GUMMIES",
+          "brand": "BITEZ",
+          "price": "$30.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/bitez-100mg-gummies-packaging.png",
+          "gallery": [
+            "images/edibles/bitez-100mg-gummies-squares.png"
+          ],
+          "video": null,
+          "alt": "BITEZ 100mg THC infused gummies",
+          "description": "10mg per piece, infused and fast acting nano THC, licensed and CAT4 compliant. It took eight different manufacturers to find the best edibles, and this manufacturer is responsible for some of the best gummies on the legal market. Premium product.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "THC infused gummies"
+            },
+            {
+              "label": "Dose",
+              "value": "10mg per piece"
+            },
+            {
+              "label": "Type",
+              "value": "Fast acting nano THC"
+            },
+            {
+              "label": "Compliance",
+              "value": "Licensed and CAT4 compliant"
+            },
+            {
+              "label": "Flavors",
+              "value": "Blackberry, Peach, Strawberry, Green Apple, Lychee, Blue Raspberry, Pineapple, Apple, Mixed Fruit"
+            },
+            {
+              "label": "Minimum",
+              "value": "Order of 2"
+            },
+            {
+              "label": "2 Units",
+              "value": "$60"
+            },
+            {
+              "label": "3 Units",
+              "value": "$75"
+            },
+            {
+              "label": "4 Units",
+              "value": "$85"
+            },
+            {
+              "label": "5 Units",
+              "value": "$100"
+            },
+            {
+              "label": "10 Units",
+              "value": "$125"
+            },
+            {
+              "label": "50 Units",
+              "value": "$425"
+            },
+            {
+              "label": "100 Units",
+              "value": "$750"
+            },
+            {
+              "label": "100+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "chocolate-crispy-rice-bar-dr-norms-rice-krispy-treat-100mg",
+          "title": "Chocolate Fudge - 600mg",
+          "brand": "RSO Fudge",
+          "price": "$55.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/chocolate-fudge-600mg.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Chocolate Fudge 600mg",
+          "description": "Chocolate Fudge is sold as a 600mg 2x2 square made with RSO. Four varieties are available: sea salt topped chocolate with Maldon sea salt flakes, toffee topped chocolate, peppermint chocolate, and salted caramel chocolate. These are absolutely phenomenal and hit like a truck.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "600mg 2x2 fudge square"
+            },
+            {
+              "label": "Made With",
+              "value": "RSO"
+            },
+            {
+              "label": "Varieties",
+              "value": "Sea salt topped chocolate, toffee topped chocolate, peppermint chocolate, salted caramel chocolate"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$55"
+            },
+            {
+              "label": "2 Units",
+              "value": "$100"
+            },
+            {
+              "label": "3 Units",
+              "value": "$130"
+            },
+            {
+              "label": "5 Units",
+              "value": "$160"
+            },
+            {
+              "label": "10 Units",
+              "value": "$290"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "clockwork-lemon-infused-gummies-10pk-100mg",
+          "title": "THC Lean CannaSyrup 1000mg - 4oz Bottle",
+          "brand": "THC Lean",
+          "price": "$65.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/thc-lean-cannasyrup-1000mg-4oz.png",
+          "gallery": [],
+          "video": null,
+          "alt": "THC Lean CannaSyrup 1000mg 4oz Bottle",
+          "description": "THC Lean CannaSyrup is a full spectrum THC syrup. Each item is a 4oz bottle containing 1000mg THC. It leans nicely to the thinner side, so it can be taken straight or added to any drink. This is very, very potent and made with RSO. Shake well before using because contents may settle a little over time.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "4oz bottle"
+            },
+            {
+              "label": "Strength",
+              "value": "1000mg THC"
+            },
+            {
+              "label": "Type",
+              "value": "Full spectrum THC syrup"
+            },
+            {
+              "label": "Made With",
+              "value": "RSO"
+            },
+            {
+              "label": "Flavors",
+              "value": "Blackberry, Blackberry Peach, Caramel Vanilla, Guava, Maple Butter Rum, Orange Creamsicle, Mango, Peach Mango, Pineapple, Pineapple Orange, Strawberry Banana, Strawberry Guava, Watermelon"
+            },
+            {
+              "label": "Note",
+              "value": "Shake well before using"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$65"
+            },
+            {
+              "label": "2 Units",
+              "value": "$110"
+            },
+            {
+              "label": "3 Units",
+              "value": "$145"
+            },
+            {
+              "label": "5 Units",
+              "value": "$195"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "20 Units",
+              "value": "$550"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "cookies-n-cream-dr-norms-mini-cookies-100mg",
+          "title": "Salted Budder Toffee - 50mg - 1000mg",
+          "brand": "Budder Toffee",
+          "price": "$60.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/salted-budder-toffee-50mg-1000mg.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Salted Budder Toffee 50mg 1000mg",
+          "description": "These delicious Budder Toffee Bites are made in house with real butter and finished with Fleur De Sel sea salt. The flavor profile hides the cannabis oil dangerously well. These are full spectrum and made with RSO. Each piece contains 50mg THC, with 20 pieces per bag for 1000mg THC total.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Budder toffee bites"
+            },
+            {
+              "label": "Dose",
+              "value": "50mg THC per piece"
+            },
+            {
+              "label": "Bag Total",
+              "value": "1000mg THC"
+            },
+            {
+              "label": "Pieces",
+              "value": "20 pieces per bag"
+            },
+            {
+              "label": "Type",
+              "value": "Full spectrum"
+            },
+            {
+              "label": "Made With",
+              "value": "RSO"
+            },
+            {
+              "label": "Finish",
+              "value": "Fleur De Sel sea salt"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$60"
+            },
+            {
+              "label": "2 Units",
+              "value": "$100"
+            },
+            {
+              "label": "5 Units",
+              "value": "$190"
+            },
+            {
+              "label": "10 Units",
+              "value": "$270"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "crunchy-toasted-cinnamon-dr-norms-crispy-rice-bar-100mg-nano",
+          "title": "Sugar High Edible",
+          "brand": "Sugar High",
+          "price": "$50.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/sugar-high-edible-500mg.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Sugar High Edible 500mg gummies",
+          "description": "Sugar High gummies offer a delicious and potent way to enjoy THC. Each pack contains 10 gummies, with each gummy delivering 50mg THC for 500mg per bag. These are made for experienced cannabis users and offer a sweet, convenient, full-spectrum experience.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "THC gummies"
+            },
+            {
+              "label": "Pack",
+              "value": "10 gummies per bag"
+            },
+            {
+              "label": "Dose",
+              "value": "50mg THC per gummy"
+            },
+            {
+              "label": "Bag Total",
+              "value": "500mg THC"
+            },
+            {
+              "label": "Type",
+              "value": "Full spectrum"
+            },
+            {
+              "label": "Flavors",
+              "value": "Apple Fritter, Watermelon Gelato, Blue Lychee Slush, Pink Rose, Purple Punchsicle, Key Lime Pie, Strawberry Shortcake, Mixed Fruit, Passionfruit Slush, Pineapple Express"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$50"
+            },
+            {
+              "label": "2 Units",
+              "value": "$85"
+            },
+            {
+              "label": "5 Units",
+              "value": "$170"
+            },
+            {
+              "label": "10 Units",
+              "value": "$275"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "dark-chocolate-raspberry-punch-solventless-punch-bar-100mg",
+          "title": "100mg Camino Gummies and Camino Sours Vegan Gummies",
+          "brand": "Camino",
+          "price": "$50.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/edibles/camino-gummies-and-sours-100mg.png",
+          "gallery": [],
+          "video": null,
+          "alt": "100mg Camino Gummies and Camino Sours Vegan Gummies",
+          "description": "Camino Gummies and Camino Sours Vegan Gummies come with 10mg per gummy and 10 gummies per tin. Options include Sleep with CBN and indica terpenes, Chill for a laid-back relaxed state, Uplifting with sativa-like terpenes, Balance with a 1:1 ratio of 5mg THC and 5mg CBD, and Recover with 5mg THC and 10mg CBG. Effects generally take about 30 minutes to 2 hours to feel and typically last 4-8 hours.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Camino gummies and Camino Sours vegan gummies"
+            },
+            {
+              "label": "Dose",
+              "value": "10mg per gummy"
+            },
+            {
+              "label": "Tin Total",
+              "value": "100mg"
+            },
+            {
+              "label": "Pack",
+              "value": "10 gummies per tin"
+            },
+            {
+              "label": "Options",
+              "value": "Sleep, Chill, Uplifting, Balance, Recover"
+            },
+            {
+              "label": "Onset",
+              "value": "30 minutes to 2 hours"
+            },
+            {
+              "label": "Duration",
+              "value": "4-8 hours"
+            },
+            {
+              "label": "Minimum",
+              "value": "Order of 2"
+            },
+            {
+              "label": "2 Units",
+              "value": "$100"
+            },
+            {
+              "label": "5 Units",
+              "value": "$190"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mushies",
+      "label": "Mushies",
+      "page": "mushies.html",
+      "products": [
+        {
+          "status": "active",
+          "slug": "albino-blend-mushies-3-5g",
+          "title": "Bluie Vuitton Shrooms",
+          "brand": "Bluie Vuitton",
+          "price": "$95.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/mushies/bluie-vuitton-shrooms.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Bluie Vuitton Shrooms",
+          "description": "These are very high quality fungi. Grown by a master mycologist with time and care instead of being cranked out fast. Amazing potency.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Dried mushrooms"
+            },
+            {
+              "label": "Quality",
+              "value": "Very high quality fungi"
+            },
+            {
+              "label": "Grower",
+              "value": "Master mycologist"
+            },
+            {
+              "label": "Potency",
+              "value": "Amazing potency"
+            },
+            {
+              "label": "14g",
+              "value": "$95"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$145"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$240"
+            },
+            {
+              "label": "3 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$700"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "blue-stem-mushies-3-5g",
+          "title": "Bluie Vuitton X Blue Meanie",
+          "brand": "Bluie Vuitton X Blue Meanie",
+          "price": "$95.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/mushies/bluie-vuitton-x-blue-meanie.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Bluie Vuitton X Blue Meanie",
+          "description": "These are very high quality fungi. Grown by a master mycologist with time and care instead of being cranked out fast. Amazing potency.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Dried mushrooms"
+            },
+            {
+              "label": "Quality",
+              "value": "Very high quality fungi"
+            },
+            {
+              "label": "Grower",
+              "value": "Master mycologist"
+            },
+            {
+              "label": "Potency",
+              "value": "Amazing potency"
+            },
+            {
+              "label": "14g",
+              "value": "$95"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$145"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$240"
+            },
+            {
+              "label": "3 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$700"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "ghost-x-blue-meanie-mushies",
+          "title": "Shakita",
+          "brand": "Shakita",
+          "price": "$95.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/mushies/shakita.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Shakita",
+          "description": "These are very high quality fungi. Grown by a master mycologist with time and care instead of being cranked out fast. Amazing potency.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Dried mushrooms"
+            },
+            {
+              "label": "Quality",
+              "value": "Very high quality fungi"
+            },
+            {
+              "label": "Grower",
+              "value": "Master mycologist"
+            },
+            {
+              "label": "Potency",
+              "value": "Amazing potency"
+            },
+            {
+              "label": "14g",
+              "value": "$95"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$145"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$240"
+            },
+            {
+              "label": "3 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$700"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "golden-cap-mushies-3-5g",
+          "title": "Iceberg x Full Moon Party",
+          "brand": "Iceberg x Full Moon Party",
+          "price": "$95.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/mushies/iceberg-x-full-moon-party.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Iceberg x Full Moon Party",
+          "description": "These are very high quality fungi. Grown by a master mycologist with time and care instead of being cranked out fast. Amazing potency.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Dried mushrooms"
+            },
+            {
+              "label": "Quality",
+              "value": "Very high quality fungi"
+            },
+            {
+              "label": "Grower",
+              "value": "Master mycologist"
+            },
+            {
+              "label": "Potency",
+              "value": "Amazing potency"
+            },
+            {
+              "label": "14g",
+              "value": "$95"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$145"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$240"
+            },
+            {
+              "label": "3 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$700"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "iceberg-x-full-moon-party-mushies",
+          "title": "Ghost X Blue Meanie",
+          "brand": "Ghost X Blue Meanie",
+          "price": "$95.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/mushies/ghost-x-blue-meanie.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Ghost X Blue Meanie",
+          "description": "These are very high quality fungi. Grown by a master mycologist with time and care instead of being cranked out fast. Amazing potency.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Dried mushrooms"
+            },
+            {
+              "label": "Quality",
+              "value": "Very high quality fungi"
+            },
+            {
+              "label": "Grower",
+              "value": "Master mycologist"
+            },
+            {
+              "label": "Potency",
+              "value": "Amazing potency"
+            },
+            {
+              "label": "14g",
+              "value": "$95"
+            },
+            {
+              "label": "1 Oz",
+              "value": "$145"
+            },
+            {
+              "label": "2 Oz",
+              "value": "$240"
+            },
+            {
+              "label": "3 Oz",
+              "value": "$300"
+            },
+            {
+              "label": "4 Oz",
+              "value": "$350"
+            },
+            {
+              "label": "1 Lb",
+              "value": "$700"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "magics-mushroom-cups-mushies",
+          "title": "Magic's | Mushroom Peanut Butter Cups",
+          "brand": "Magic's",
+          "price": "$60.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/mushies/magics-mushroom-peanut-butter-cups.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Magic's Mushroom Peanut Butter Cups",
+          "description": "Magic's. Indulge in our small-batch magic mushroom peanut butter cups, handcrafted with premium ingredients by a passionate artisan. Each velvety chocolate shell wraps a creamy peanut butter core so smooth, you would never guess there was 1/2g of psychedelic magic within.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Mushroom peanut butter cups"
+            },
+            {
+              "label": "Pieces per bag",
+              "value": "5"
+            },
+            {
+              "label": "Dose per piece",
+              "value": "0.5g"
+            },
+            {
+              "label": "Total per bag",
+              "value": "2.5g"
+            },
+            {
+              "label": "1 Bag",
+              "value": "$60"
+            },
+            {
+              "label": "2 Bags",
+              "value": "$100"
+            },
+            {
+              "label": "3 Bags",
+              "value": "$120"
+            },
+            {
+              "label": "4 Bags",
+              "value": "$140"
+            },
+            {
+              "label": "5 Bags",
+              "value": "$165"
+            },
+            {
+              "label": "10 Bags",
+              "value": "$250"
+            },
+            {
+              "label": "20 Bags",
+              "value": "$425"
+            },
+            {
+              "label": "20+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dispos-carts",
+      "label": "Dispos/Carts",
+      "page": "dispos.html",
+      "products": [
+        {
+          "status": "active",
+          "slug": "2g-hitz-infinity-aio-disposable",
+          "title": "2G HITZ Infinity AIO Disposable",
+          "brand": "HITZ",
+          "price": "$40.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/hitz-infinity-aio-disposable-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G HITZ Infinity AIO Disposable",
+          "description": "2 gram HITZ Infinity all-in-one disposable featuring live resin, sugar liquid diamonds, and a compact rechargeable-style AIO device. Available with straightforward quantity pricing.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "AIO disposable"
+            },
+            {
+              "label": "Brand",
+              "value": "HITZ Infinity"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Oil",
+              "value": "Live resin sugar liquid diamonds"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$40"
+            },
+            {
+              "label": "2 Units",
+              "value": "$80"
+            },
+            {
+              "label": "3 Units",
+              "value": "$110"
+            },
+            {
+              "label": "4 Units",
+              "value": "$130"
+            },
+            {
+              "label": "5 Units",
+              "value": "$150"
+            },
+            {
+              "label": "10 Units",
+              "value": "$250"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "2g-ace-ultra-aio-disposable",
+          "title": "2G ACE ULTRA AIO Disposable",
+          "brand": "ACE ULTRA",
+          "price": "$40.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/ace-ultra-aio-disposable-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G ACE ULTRA AIO Disposable",
+          "description": "2 gram ACE ULTRA all-in-one disposable with premium gold device styling and simple quantity tiers. Built for easy add-to-cart ordering through the Dispos/Carts menu.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "AIO disposable"
+            },
+            {
+              "label": "Brand",
+              "value": "ACE ULTRA"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Style",
+              "value": "Premium gold device"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$40"
+            },
+            {
+              "label": "2 Units",
+              "value": "$80"
+            },
+            {
+              "label": "3 Units",
+              "value": "$110"
+            },
+            {
+              "label": "4 Units",
+              "value": "$130"
+            },
+            {
+              "label": "5 Units",
+              "value": "$150"
+            },
+            {
+              "label": "10 Units",
+              "value": "$250"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "2g-blinkers-double-chamber-aio-disposable",
+          "title": "2G Blinkers Double Chamber AIO Disposable",
+          "brand": "Blinkers",
+          "price": "$40.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/blinkers-double-chamber-aio-disposable-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Blinkers Double Chamber AIO Disposable",
+          "description": "2 gram Blinkers Flip double chamber all-in-one disposable with Mango Tango and Lemon Heads hybrid chambers. Available with simple quantity tiers through the Dispos/Carts menu.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "AIO disposable"
+            },
+            {
+              "label": "Brand",
+              "value": "Blinkers"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Device",
+              "value": "Double chamber"
+            },
+            {
+              "label": "Chambers",
+              "value": "Mango Tango / Lemon Heads"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$40"
+            },
+            {
+              "label": "2 Units",
+              "value": "$80"
+            },
+            {
+              "label": "3 Units",
+              "value": "$110"
+            },
+            {
+              "label": "4 Units",
+              "value": "$130"
+            },
+            {
+              "label": "5 Units",
+              "value": "$150"
+            },
+            {
+              "label": "10 Units",
+              "value": "$250"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "2g-sluggers-hit-switch-aio-disposable",
+          "title": "2G Sluggers Hit Switch AIO Disposable",
+          "brand": "Sluggers",
+          "price": "$40.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/sluggers-hit-switch-aio-disposable-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Sluggers Hit Switch AIO Disposable",
+          "description": "2 gram Sluggers Hit Switch all-in-one disposable with dual chamber vape pen styling and Sativa / Hybrid side-by-side flavor switching. Available with simple quantity tiers through the Dispos/Carts menu.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "AIO disposable"
+            },
+            {
+              "label": "Brand",
+              "value": "Sluggers"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Device",
+              "value": "Hit Switch"
+            },
+            {
+              "label": "Style",
+              "value": "Dual chamber vape pen"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$40"
+            },
+            {
+              "label": "2 Units",
+              "value": "$80"
+            },
+            {
+              "label": "3 Units",
+              "value": "$110"
+            },
+            {
+              "label": "4 Units",
+              "value": "$130"
+            },
+            {
+              "label": "5 Units",
+              "value": "$150"
+            },
+            {
+              "label": "10 Units",
+              "value": "$250"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "in-house-live-rosin-cart-1g",
+          "title": "1G Live Rosin Cart",
+          "brand": "In-house",
+          "price": "$55.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/in-house-live-rosin-cart-1g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G Live Rosin Cart",
+          "description": "In-house 1 gram live rosin cart made for a premium rosin taste without feeling like each hit burns through the wallet. Current strains include Blues, High Five, Live Long and Prosper, 5 Alive, Purple Urkle, and Life Savers.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Cartridge"
+            },
+            {
+              "label": "Brand",
+              "value": "In-house"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Oil",
+              "value": "Live rosin"
+            },
+            {
+              "label": "Strains",
+              "value": "Blues, High Five, Live Long and Prosper, 5 Alive, Purple Urkle, Life Savers"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$55"
+            },
+            {
+              "label": "2 Units",
+              "value": "$95"
+            },
+            {
+              "label": "3 Units",
+              "value": "$130"
+            },
+            {
+              "label": "4 Units",
+              "value": "$165"
+            },
+            {
+              "label": "5 Units",
+              "value": "$200"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "caliplug-cart-1g",
+          "title": "1G CaliPlug Cart",
+          "brand": "CaliPlug",
+          "price": "$35.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/caliplug-cart-1g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G CaliPlug Cart",
+          "description": "1 gram CaliPlug THC cartridge with clean cannabis oil cart hardware and simple quantity tier pricing through the Dispos/Carts menu.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Cartridge"
+            },
+            {
+              "label": "Brand",
+              "value": "CaliPlug"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Oil",
+              "value": "Cannabis oil"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$35"
+            },
+            {
+              "label": "2 Units",
+              "value": "$55"
+            },
+            {
+              "label": "3 Units",
+              "value": "$80"
+            },
+            {
+              "label": "4 Units",
+              "value": "$95"
+            },
+            {
+              "label": "5 Units",
+              "value": "$110"
+            },
+            {
+              "label": "10 Units",
+              "value": "$175"
+            },
+            {
+              "label": "10+",
+              "value": "Contact on TG"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "tier-1-rosin-dispos",
+          "title": "Tier 1 Rosin Dispos",
+          "brand": "Tier 1 Rosin",
+          "price": "$60.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/tier-1-rosin-dispos.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Tier 1 Rosin Dispos",
+          "description": "Tier 1 rosin disposables with mind-boggling rosin quality and strain options including Grapeade, Rainbow Guava, and Saddle Bags. Orders under 10 count can choose a max of 2 strains; orders over 10 count may mix and match evenly.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Tier",
+              "value": "Tier 1"
+            },
+            {
+              "label": "Oil",
+              "value": "Rosin"
+            },
+            {
+              "label": "Strains",
+              "value": "Grapeade, Rainbow Guava, Saddle Bags"
+            },
+            {
+              "label": "Under 10ct",
+              "value": "Max 2 strain choices"
+            },
+            {
+              "label": "Over 10ct",
+              "value": "Mix and match evenly"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$60"
+            },
+            {
+              "label": "2 Units",
+              "value": "$110"
+            },
+            {
+              "label": "3 Units",
+              "value": "$150"
+            },
+            {
+              "label": "4 Units",
+              "value": "$195"
+            },
+            {
+              "label": "5 Units",
+              "value": "$225"
+            },
+            {
+              "label": "10 Units",
+              "value": "$385"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "raw-garden-1g-cartridge-authentic",
+          "title": "Raw Garden 1g Cartridge Authentic",
+          "brand": "Raw Garden",
+          "price": "$65.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/raw-garden-1g-cartridge-authentic-1.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Raw Garden 1g Cartridge Authentic",
+          "description": "Authentic Raw Garden 1g refined live resin cartridge. Real Raw Garden quality — clean oil, consistent hits, and strain-specific live resin for the cart shoppers who know what they want.",
+          "facts": [
+            {
+              "label": "Brand",
+              "value": "Raw Garden"
+            },
+            {
+              "label": "Authentic",
+              "value": "Yes"
+            },
+            {
+              "label": "Hardware",
+              "value": "Cartridge"
+            },
+            {
+              "label": "Oil",
+              "value": "Refined Live Resin"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$65"
+            },
+            {
+              "label": "2 Units",
+              "value": "$125"
+            },
+            {
+              "label": "3 Units",
+              "value": "$175"
+            },
+            {
+              "label": "4 Units",
+              "value": "$230"
+            },
+            {
+              "label": "5 Units",
+              "value": "$280"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "coldfire-cart-1g-authentic",
+          "title": "1G ColdFire Cart - Authentic",
+          "brand": "ColdFire",
+          "price": "$115.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/coldfire-cart-1g-authentic.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G ColdFire Cart - Authentic",
+          "description": "Authentic 1G ColdFire cart with current strains: Motorbreath x Banana Punch, Zoap, Now n Later, Grillz, Cherry Haze, Cherry Dough, Sour Peaches, Oishi, Xs and Os, and Orange Wifi. Pricing: 2 for $115, 3 for $160, 5 for $250, 10 for $450, 25 for $1025, and 100 for $3500.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Cartridge"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Strains",
+              "value": "Motorbreath x Banana Punch, Zoap, Now n Later, Grillz, Cherry Haze, Cherry Dough, Sour Peaches, Oishi, Xs and Os, Orange Wifi"
+            },
+            {
+              "label": "2 Units",
+              "value": "$115"
+            },
+            {
+              "label": "3 Units",
+              "value": "$160"
+            },
+            {
+              "label": "5 Units",
+              "value": "$250"
+            },
+            {
+              "label": "10 Units",
+              "value": "$450"
+            },
+            {
+              "label": "25 Units",
+              "value": "$1025"
+            },
+            {
+              "label": "100 Units",
+              "value": "$3500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "fuel-half-g-rosin-dispo",
+          "title": "Fuel Half G Rosin Dispo",
+          "brand": "Fuel",
+          "price": "$55.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/fuel-half-g-rosin-dispo.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Fuel Half G Rosin Dispo",
+          "description": "Best hash rosin disposables in the world, it does not get better than this. Discover high end cannabis consumption today and fuel your day. Current strains: Wakanda, Guava, Government Oasis. Pricing: 1 for $55 add on only, 2 for $100, 3 for $145, 5 for $225, and 10 for $350.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Format",
+              "value": ".5g rosin dispo"
+            },
+            {
+              "label": "Current Strains",
+              "value": "Wakanda, Guava, Government Oasis"
+            },
+            {
+              "label": "1 Unit",
+              "value": "$55 add on only"
+            },
+            {
+              "label": "2 Units",
+              "value": "$100"
+            },
+            {
+              "label": "3 Units",
+              "value": "$145"
+            },
+            {
+              "label": "5 Units",
+              "value": "$225"
+            },
+            {
+              "label": "10 Units",
+              "value": "$350"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "high-standards-2g-dispo-authentic",
+          "title": "2G High Standard Dispo Authentic",
+          "brand": "High Standards",
+          "price": "$75.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/uploads/high-standards-2g-dispo-authentic-device.png",
+          "gallery": [
+            "images/uploads/high-standards-2g-dispo-authentic-lineup.png"
+          ],
+          "video": null,
+          "alt": "2G High Standard Dispo Authentic",
+          "description": "These are actually gass, the hardware rips and is smooth. Oil is very good as well. Pricing: 2 for $75, 3 for $90, 4 for $115, 5 for $130, and 10 for $225.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Hybrid Flavors",
+              "value": "Blue Runtz, Blue Dream, Lemon Cherry Gelato"
+            },
+            {
+              "label": "Sativa Flavors",
+              "value": "Sour Diesel, Grape Gas, Lemon Heads"
+            },
+            {
+              "label": "Indica Flavors",
+              "value": "Hard Candy, Cherry Heads, Mellowz"
+            },
+            {
+              "label": "2 Units",
+              "value": "$75"
+            },
+            {
+              "label": "3 Units",
+              "value": "$90"
+            },
+            {
+              "label": "4 Units",
+              "value": "$115"
+            },
+            {
+              "label": "5 Units",
+              "value": "$130"
+            },
+            {
+              "label": "10 Units",
+              "value": "$225"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "blueberry-freezer-stky-disposable-2g",
+          "title": "Authentic ColdFire Half G Rosin Dispo",
+          "brand": "ColdFire",
+          "price": "$500.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$500.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-coldfire-half-g-rosin-dispo.png",
+          "gallery": [],
+          "video": null,
+          "alt": "Authentic ColdFire Half G Rosin Dispo",
+          "description": "Authentic ColdFire half gram rosin disposable with bulk pricing available through Telegram. Pricing: 10 for $500, 30 for $1350, 50 for $2000, and 100 for $3700.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Oil",
+              "value": "Rosin"
+            },
+            {
+              "label": "Size",
+              "value": "0.5g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$500"
+            },
+            {
+              "label": "30 Units",
+              "value": "$1350"
+            },
+            {
+              "label": "50 Units",
+              "value": "$2000"
+            },
+            {
+              "label": "100 Units",
+              "value": "$3700"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "candy-apple-muha-meds-cartridge-2g",
+          "title": "1G Authentic Boutiq Licensed Product",
+          "brand": "Boutiq",
+          "price": "$250.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$250.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-boutiq-licensed-product-1g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G Authentic Boutiq Licensed Product",
+          "description": "1 gram authentic Boutiq licensed product with bulk pricing available through Telegram. Pricing: 10 for $250, 30 for $630, 50 for $850, and 100 for $1500.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Cartridge"
+            },
+            {
+              "label": "Type",
+              "value": "Licensed product"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$250"
+            },
+            {
+              "label": "30 Units",
+              "value": "$630"
+            },
+            {
+              "label": "50 Units",
+              "value": "$850"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1500"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "coldfire-juice-cannabis-oil-cartridge-1g",
+          "title": "1G Authentic Raw Garden Dispo",
+          "brand": "Raw Garden",
+          "price": "$500.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$500.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-raw-garden-dispo-1g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "1G Authentic Raw Garden Dispo",
+          "description": "1 gram authentic Raw Garden disposable with bulk pricing available through Telegram. Pricing: 10 for $500, 30 for $1050, 50 for $1500, and 100 for $2750.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Type",
+              "value": "Authentic dispo"
+            },
+            {
+              "label": "Size",
+              "value": "1g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$500"
+            },
+            {
+              "label": "30 Units",
+              "value": "$1050"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1500"
+            },
+            {
+              "label": "100 Units",
+              "value": "$2750"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "fuel-disposable-1g",
+          "title": "2G Authentic Wholemelt Candy Edition (Dual Chamber)",
+          "brand": "Wholemelt",
+          "price": "$375.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$375.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-wholemelt-candy-edition-dual-chamber-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Wholemelt Candy Edition Dual Chamber",
+          "description": "2 gram authentic Wholemelt candy edition dual chamber disposable with bulk pricing available through Telegram. Pricing: 10 for $375, 30 for $700, 50 for $1000, and 100 for $1750.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Dual chamber"
+            },
+            {
+              "label": "Type",
+              "value": "Candy edition"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$375"
+            },
+            {
+              "label": "30 Units",
+              "value": "$700"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1000"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1750"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "grape-god-cbd-vape-disposable-1-gram",
+          "title": "2G Authentic Ace Ultra Dispo",
+          "brand": "Ace Ultra",
+          "price": "$370.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$370.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-ace-ultra-dispo-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Ace Ultra Dispo",
+          "description": "2 gram authentic Ace Ultra disposable with bulk pricing available through Telegram. Pricing: 10 for $370, 30 for $800, 50 for $1150, and 100 for $2050.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Type",
+              "value": "Authentic dispo"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$370"
+            },
+            {
+              "label": "30 Units",
+              "value": "$800"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1150"
+            },
+            {
+              "label": "100 Units",
+              "value": "$2050"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "grape-soda-gelato-vape-cartridge-1g",
+          "title": "2G Authentic Big Chief Dispo V3",
+          "brand": "Big Chief",
+          "price": "$325.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$325.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-big-chief-dispo-v3-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Big Chief Dispo V3",
+          "description": "2 gram authentic Big Chief V3 disposable with bulk pricing available through Telegram. Pricing: 10 for $325, 30 for $700, 50 for $1025, and 100 for $1850.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Type",
+              "value": "V3"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "30 Units",
+              "value": "$700"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1025"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1850"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "krypto-chronic-alien-labs-live-resin-disposable-1g",
+          "title": "2G Authentic Boutiq ORB V5",
+          "brand": "Boutiq",
+          "price": "$325.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$325.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-boutiq-orb-v5-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Boutiq ORB V5",
+          "description": "2 gram authentic Boutiq ORB V5 with a fire device and oil built for big clouds. Triple chamber hardware with 0.7 gram in each chamber for 2.0 grams total. Pricing: 10 for $325, 30 for $685, 50 for $1025, and 100 for $1750.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Triple chamber"
+            },
+            {
+              "label": "Clouds",
+              "value": "Big clouds"
+            },
+            {
+              "label": "Chambers",
+              "value": "0.7g each"
+            },
+            {
+              "label": "Total",
+              "value": "2.0g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "30 Units",
+              "value": "$685"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1025"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1750"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "orange-elixir-cbd-vape-disposable-1-gram",
+          "title": "2G Authentic Hitz Live Resin (Gladiator Edition)",
+          "brand": "Hitz",
+          "price": "$325.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$325.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-hitz-live-resin-gladiator-edition-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Hitz Live Resin Gladiator Edition",
+          "description": "2 gram authentic Hitz live resin disposable in the gladiator edition with bulk pricing available through Telegram. Pricing: 10 for $325, 30 for $640, 50 for $950, and 100 for $1650.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Oil",
+              "value": "Live resin"
+            },
+            {
+              "label": "Edition",
+              "value": "Gladiator edition"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "30 Units",
+              "value": "$640"
+            },
+            {
+              "label": "50 Units",
+              "value": "$950"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1650"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "papaya-cbd-vape-disposable-1-gram",
+          "title": "2G Authentic Mad Labs Dispo",
+          "brand": "Mad Labs",
+          "price": "$325.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$325.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-mad-labs-dispo-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Mad Labs Dispo",
+          "description": "2 gram authentic Mad Labs disposable with a ceramic coil, licensed brand hardware, and absolutely fire product quality. Bulk pricing: 10 for $325, 30 for $640, 50 for $950, and 100 for $1650.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Ceramic coil"
+            },
+            {
+              "label": "Brand",
+              "value": "Licensed brand"
+            },
+            {
+              "label": "Quality",
+              "value": "Absolutely fire product"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "30 Units",
+              "value": "$640"
+            },
+            {
+              "label": "50 Units",
+              "value": "$950"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1650"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "smarties-cali-thc-cartridge-1g",
+          "title": "2G Authentic Sherbinski Quatro Live Resin",
+          "brand": "Sherbinski",
+          "price": "$360.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$360.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-sherbinski-quatro-live-resin-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Sherbinski Quatro Live Resin",
+          "description": "Authentic Sherbinski 2 gram Quatro live resin disposable from a licensed brand and one of our favorite dispos on the menu. Bulk pricing: 10 for $360, 30 for $790, 50 for $1175, and 100 for $2150.",
+          "facts": [
+            {
+              "label": "Hardware",
+              "value": "Disposable"
+            },
+            {
+              "label": "Oil",
+              "value": "Live resin"
+            },
+            {
+              "label": "Brand",
+              "value": "Licensed brand"
+            },
+            {
+              "label": "Menu Note",
+              "value": "One of our favorite dispos"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$360"
+            },
+            {
+              "label": "30 Units",
+              "value": "$790"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1175"
+            },
+            {
+              "label": "100 Units",
+              "value": "$2150"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        },
+        {
+          "status": "active",
+          "slug": "strawberry-banana-cbd-vape-disposable-1-gram",
+          "title": "2G Authentic Muha Dispo",
+          "brand": "Muha Meds",
+          "price": "$325.00",
+          "compareAt": null,
+          "minimumLabel": "10 unit minimum",
+          "cartPrice": "$325.00 / 10 unit minimum",
+          "image": "images/uploads/authentic-muha-dispo-2g.png",
+          "gallery": [],
+          "video": null,
+          "alt": "2G Authentic Muha Dispo",
+          "description": "New device and new flavors on these authentic 2 gram Muha Meds disposables. Licensed product with bulk pricing available through Telegram: 10 for $325, 30 for $660, 50 for $1000, and 100 for $1800.",
+          "facts": [
+            {
+              "label": "Device",
+              "value": "New device"
+            },
+            {
+              "label": "Flavors",
+              "value": "New flavors"
+            },
+            {
+              "label": "Brand",
+              "value": "Licensed product"
+            },
+            {
+              "label": "Size",
+              "value": "2g"
+            },
+            {
+              "label": "Minimum",
+              "value": "10 Units"
+            },
+            {
+              "label": "10 Units",
+              "value": "$325"
+            },
+            {
+              "label": "30 Units",
+              "value": "$660"
+            },
+            {
+              "label": "50 Units",
+              "value": "$1000"
+            },
+            {
+              "label": "100 Units",
+              "value": "$1800"
+            },
+            {
+              "label": "Ordering",
+              "value": "Add to cart and finish through Telegram"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
