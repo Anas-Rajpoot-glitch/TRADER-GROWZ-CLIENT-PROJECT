@@ -187,6 +187,9 @@ const categoryProductOrder = {
     "do-lato-10-cereal-star-5-persy-thumbprint-2g"
   ],
   edibles: [
+    "jefferey-single-infused-joint",
+    "710-labs-hash-rosin-gummy-authentic",
+    "haze-main-thc-chocolate",
     "blueberry-x-blue-dream-10pk-100mg-live-resin-chews-100mg",
     "cherry-lime-x-gmo-10pk-100mg-live-resin-chews-100mg",
     "chocolate-chip-dr-norms-mini-cookies-100mg",
@@ -194,12 +197,17 @@ const categoryProductOrder = {
     "clockwork-lemon-infused-gummies-10pk-100mg",
     "cookies-n-cream-dr-norms-mini-cookies-100mg",
     "crunchy-toasted-cinnamon-dr-norms-crispy-rice-bar-100mg-nano",
-    "dark-chocolate-raspberry-punch-solventless-punch-bar-100mg",
-    "jefferey-single-infused-joint",
-    "710-labs-hash-rosin-gummy-authentic",
-    "haze-main-thc-chocolate"
+    "dark-chocolate-raspberry-punch-solventless-punch-bar-100mg"
   ],
   "dispos-carts": [
+    "2g-hitz-infinity-aio-disposable",
+    "2g-ace-ultra-aio-disposable",
+    "2g-blinkers-double-chamber-aio-disposable",
+    "2g-sluggers-hit-switch-aio-disposable",
+    "in-house-live-rosin-cart-1g",
+    "caliplug-cart-1g",
+    "tier-1-rosin-dispos",
+    "raw-garden-1g-cartridge-authentic",
     "coldfire-cart-1g-authentic",
     "fuel-half-g-rosin-dispo",
     "high-standards-2g-dispo-authentic",
@@ -213,14 +221,7 @@ const categoryProductOrder = {
     "orange-elixir-cbd-vape-disposable-1-gram",
     "papaya-cbd-vape-disposable-1-gram",
     "smarties-cali-thc-cartridge-1g",
-    "strawberry-banana-cbd-vape-disposable-1-gram",
-    "2g-hitz-infinity-aio-disposable",
-    "2g-ace-ultra-aio-disposable",
-    "2g-blinkers-double-chamber-aio-disposable",
-    "2g-sluggers-hit-switch-aio-disposable",
-    "in-house-live-rosin-cart-1g",
-    "caliplug-cart-1g",
-    "tier-1-rosin-dispos"
+    "strawberry-banana-cbd-vape-disposable-1-gram"
     ]
   };
 
