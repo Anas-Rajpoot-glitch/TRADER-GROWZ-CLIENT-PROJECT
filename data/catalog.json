@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T21:18:25.566Z",
+  "updatedAt": "2026-05-16T21:38:05.893Z",
   "site": {
     "name": "Trader Growz",
     "currency": "USD"
@@ -3351,7 +3351,7 @@
     },
     {
       "id": "edibles",
-      "label": "Edibles & Prerolls",
+      "label": "Edibles",
       "page": "edibles.html",
       "products": [
         {
@@ -4094,6 +4094,22 @@
       "label": "Mushies",
       "page": "mushies.html",
       "products": [
+        {
+          "status": "active",
+          "slug": "test",
+          "title": "Testing product",
+          "brand": "Mushies",
+          "price": "$100",
+          "compareAt": "$120",
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/trader-growz-logo-icon-20260424.png",
+          "gallery": [],
+          "video": null,
+          "alt": "TEST",
+          "description": "This is a test product",
+          "facts": []
+        },
         {
           "status": "active",
           "slug": "albino-blend-mushies-3-5g",
