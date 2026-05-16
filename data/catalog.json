@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T21:18:25.566Z",
+  "updatedAt": "2026-05-16T21:41:10.377Z",
   "site": {
     "name": "Trader Growz",
     "currency": "USD"
@@ -3351,7 +3351,7 @@
     },
     {
       "id": "edibles",
-      "label": "Edibles & Prerolls",
+      "label": "Edibles",
       "page": "edibles.html",
       "products": [
         {
@@ -4467,6 +4467,22 @@
               "value": "Add to cart and finish through Telegram"
             }
           ]
+        },
+        {
+          "status": "active",
+          "slug": "new-product-1778967603090",
+          "title": "New Product",
+          "brand": "Mushies",
+          "price": "$0.00",
+          "compareAt": null,
+          "minimumLabel": null,
+          "cartPrice": null,
+          "image": "images/trader-growz-logo-icon-20260424.png",
+          "gallery": [],
+          "video": null,
+          "alt": "New Product",
+          "description": "",
+          "facts": []
         }
       ]
     },
